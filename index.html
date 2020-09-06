@@ -1,0 +1,4522 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_928495ce3b014b748d1363a3a287a7db {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_928495ce3b014b748d1363a3a287a7db" ></div>
+        
+</body>
+<script>    
+    
+            var map_928495ce3b014b748d1363a3a287a7db = L.map(
+                "map_928495ce3b014b748d1363a3a287a7db",
+                {
+                    center: [37.5502, 126.982],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6202e3f5b759496d8563285009604c22 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_928495ce3b014b748d1363a3a287a7db);
+        
+    
+            var marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0 = L.markerClusterGroup(
+                {}
+            );
+            map_928495ce3b014b748d1363a3a287a7db.addLayer(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var marker_f0e68ab0a3c148f6a77ee587975015ae = L.marker(
+                [37.4881117, 126.9154794],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_3c10fa5daee645dfa19221d2d0d0bda3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f0e68ab0a3c148f6a77ee587975015ae.setIcon(icon_3c10fa5daee645dfa19221d2d0d0bda3);
+        
+    
+        var popup_fb045e0dbb2a46ea83500aaa2eb487d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c5b92f3f75b452a98eeed20fdb346b8 = $(`<div id="html_9c5b92f3f75b452a98eeed20fdb346b8" style="width: 100.0%; height: 100.0%;">광진자동차정비소</div>`)[0];
+            popup_fb045e0dbb2a46ea83500aaa2eb487d2.setContent(html_9c5b92f3f75b452a98eeed20fdb346b8);
+        
+
+        marker_f0e68ab0a3c148f6a77ee587975015ae.bindPopup(popup_fb045e0dbb2a46ea83500aaa2eb487d2)
+        ;
+
+        
+    
+    
+            var marker_92e6e9338cec4d00b0b9efeefb5bb30d = L.marker(
+                [37.5435047, 127.0642868],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_91822418cf9749b5afff2b61c2b0ca09 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_92e6e9338cec4d00b0b9efeefb5bb30d.setIcon(icon_91822418cf9749b5afff2b61c2b0ca09);
+        
+    
+        var popup_4e685c9dc6c247b2815f4490b6e15566 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5de8ebb7c77a44e0ba451eb1571385d5 = $(`<div id="html_5de8ebb7c77a44e0ba451eb1571385d5" style="width: 100.0%; height: 100.0%;">깨끗한자동차나라</div>`)[0];
+            popup_4e685c9dc6c247b2815f4490b6e15566.setContent(html_5de8ebb7c77a44e0ba451eb1571385d5);
+        
+
+        marker_92e6e9338cec4d00b0b9efeefb5bb30d.bindPopup(popup_4e685c9dc6c247b2815f4490b6e15566)
+        ;
+
+        
+    
+    
+            var marker_3a000be9885043e18b7fa8c169731d2d = L.marker(
+                [37.6116784, 126.9116407],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_70c8e4bfeeb7499fba63aba9e4faa6dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3a000be9885043e18b7fa8c169731d2d.setIcon(icon_70c8e4bfeeb7499fba63aba9e4faa6dc);
+        
+    
+        var popup_de9c210de8964e1dad339fa2b26c9d38 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2fc660ffba3b44db90a3c6390f60b59c = $(`<div id="html_2fc660ffba3b44db90a3c6390f60b59c" style="width: 100.0%; height: 100.0%;">카맨샵 내친구 카샵</div>`)[0];
+            popup_de9c210de8964e1dad339fa2b26c9d38.setContent(html_2fc660ffba3b44db90a3c6390f60b59c);
+        
+
+        marker_3a000be9885043e18b7fa8c169731d2d.bindPopup(popup_de9c210de8964e1dad339fa2b26c9d38)
+        ;
+
+        
+    
+    
+            var marker_d48c01e27bc64803bf744c92f1d82c52 = L.marker(
+                [37.5993544, 127.1056133],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_b296ca0d171f413684c87ee536cc6927 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d48c01e27bc64803bf744c92f1d82c52.setIcon(icon_b296ca0d171f413684c87ee536cc6927);
+        
+    
+        var popup_d8b272541ad246b89be744b26a804313 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b8720f0a65c14d48b4fc511ebf9c4d15 = $(`<div id="html_b8720f0a65c14d48b4fc511ebf9c4d15" style="width: 100.0%; height: 100.0%;">상우카센타</div>`)[0];
+            popup_d8b272541ad246b89be744b26a804313.setContent(html_b8720f0a65c14d48b4fc511ebf9c4d15);
+        
+
+        marker_d48c01e27bc64803bf744c92f1d82c52.bindPopup(popup_d8b272541ad246b89be744b26a804313)
+        ;
+
+        
+    
+    
+            var marker_0a9cf57a3dcf45c9b3c95ee9fb541bb1 = L.marker(
+                [37.6610458, 127.0435072],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_64332f482fd64350aedc178bdefa3640 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0a9cf57a3dcf45c9b3c95ee9fb541bb1.setIcon(icon_64332f482fd64350aedc178bdefa3640);
+        
+    
+        var popup_656e731c70964ca6be75a18f638a8c94 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee156442cc7f4856b472b621430b1bff = $(`<div id="html_ee156442cc7f4856b472b621430b1bff" style="width: 100.0%; height: 100.0%;">시온자동차공업사</div>`)[0];
+            popup_656e731c70964ca6be75a18f638a8c94.setContent(html_ee156442cc7f4856b472b621430b1bff);
+        
+
+        marker_0a9cf57a3dcf45c9b3c95ee9fb541bb1.bindPopup(popup_656e731c70964ca6be75a18f638a8c94)
+        ;
+
+        
+    
+    
+            var marker_847f8462807e48bea287cefac11bb7a0 = L.marker(
+                [37.5793513, 126.9076339],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_06f95289ef1c4f42902aa458c7425c92 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_847f8462807e48bea287cefac11bb7a0.setIcon(icon_06f95289ef1c4f42902aa458c7425c92);
+        
+    
+        var popup_37c3d1d6dedc40ad9923f47de5b8cd76 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04380780774148c89d73733b682a0a11 = $(`<div id="html_04380780774148c89d73733b682a0a11" style="width: 100.0%; height: 100.0%;">아트카라운지</div>`)[0];
+            popup_37c3d1d6dedc40ad9923f47de5b8cd76.setContent(html_04380780774148c89d73733b682a0a11);
+        
+
+        marker_847f8462807e48bea287cefac11bb7a0.bindPopup(popup_37c3d1d6dedc40ad9923f47de5b8cd76)
+        ;
+
+        
+    
+    
+            var marker_0649961e1cbd4cbb9aeec431e5c2b8dd = L.marker(
+                [37.4993034, 126.8518646],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_9763097fe3904f63821ad34f32584910 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0649961e1cbd4cbb9aeec431e5c2b8dd.setIcon(icon_9763097fe3904f63821ad34f32584910);
+        
+    
+        var popup_3fe2215fd7fe4174b274d971c814ae53 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5cbd9742e10a4e7a9f1f708ce524c113 = $(`<div id="html_5cbd9742e10a4e7a9f1f708ce524c113" style="width: 100.0%; height: 100.0%;">안쌤 자동차 정비 센터</div>`)[0];
+            popup_3fe2215fd7fe4174b274d971c814ae53.setContent(html_5cbd9742e10a4e7a9f1f708ce524c113);
+        
+
+        marker_0649961e1cbd4cbb9aeec431e5c2b8dd.bindPopup(popup_3fe2215fd7fe4174b274d971c814ae53)
+        ;
+
+        
+    
+    
+            var marker_730ae231edd3475bb41038db4e7b3707 = L.marker(
+                [37.5865541, 127.034015],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_287a61515c1a47ad8b178adc4d9c59ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_730ae231edd3475bb41038db4e7b3707.setIcon(icon_287a61515c1a47ad8b178adc4d9c59ed);
+        
+    
+        var popup_ceffebbee1c84505a5d839a355319c23 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77d7e56ea8ec4b37a7a22726d3b14aab = $(`<div id="html_77d7e56ea8ec4b37a7a22726d3b14aab" style="width: 100.0%; height: 100.0%;">안암자동차공업사</div>`)[0];
+            popup_ceffebbee1c84505a5d839a355319c23.setContent(html_77d7e56ea8ec4b37a7a22726d3b14aab);
+        
+
+        marker_730ae231edd3475bb41038db4e7b3707.bindPopup(popup_ceffebbee1c84505a5d839a355319c23)
+        ;
+
+        
+    
+    
+            var marker_d74920e332544beca165721eabfda824 = L.marker(
+                [37.5357054, 127.076214],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_a093a91563f84e8abf9635e521ccba2f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d74920e332544beca165721eabfda824.setIcon(icon_a093a91563f84e8abf9635e521ccba2f);
+        
+    
+        var popup_14c1000ae2f948e0bb6620f3e56d12cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_878698a0176b4d728ca1f76848875000 = $(`<div id="html_878698a0176b4d728ca1f76848875000" style="width: 100.0%; height: 100.0%;">애니카랜드자양점</div>`)[0];
+            popup_14c1000ae2f948e0bb6620f3e56d12cd.setContent(html_878698a0176b4d728ca1f76848875000);
+        
+
+        marker_d74920e332544beca165721eabfda824.bindPopup(popup_14c1000ae2f948e0bb6620f3e56d12cd)
+        ;
+
+        
+    
+    
+            var marker_cf13c63188d542f9893cfe0d5ab0c988 = L.marker(
+                [37.5038753, 126.9213712],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_93e1b0c18a7641198b8b241a6eda1c63 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cf13c63188d542f9893cfe0d5ab0c988.setIcon(icon_93e1b0c18a7641198b8b241a6eda1c63);
+        
+    
+        var popup_746078b4d5c3447d995a4c3894ed995f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ba5585d74794df1b6114f767575b346 = $(`<div id="html_3ba5585d74794df1b6114f767575b346" style="width: 100.0%; height: 100.0%;">영미자동차공업사 신길점</div>`)[0];
+            popup_746078b4d5c3447d995a4c3894ed995f.setContent(html_3ba5585d74794df1b6114f767575b346);
+        
+
+        marker_cf13c63188d542f9893cfe0d5ab0c988.bindPopup(popup_746078b4d5c3447d995a4c3894ed995f)
+        ;
+
+        
+    
+    
+            var marker_1a3d62eddd41455baeb5eceb8404d08c = L.marker(
+                [37.4727127, 126.8937912],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_1bb1bfc04d0f46aa8841e8b0659523db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1a3d62eddd41455baeb5eceb8404d08c.setIcon(icon_1bb1bfc04d0f46aa8841e8b0659523db);
+        
+    
+        var popup_6e5a9bb63d2b44569c91e9fb688db3df = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ef5d76a97414e3a93e9d83d695746de = $(`<div id="html_7ef5d76a97414e3a93e9d83d695746de" style="width: 100.0%; height: 100.0%;">10년타기정비센터독산점오토랜드카서비스</div>`)[0];
+            popup_6e5a9bb63d2b44569c91e9fb688db3df.setContent(html_7ef5d76a97414e3a93e9d83d695746de);
+        
+
+        marker_1a3d62eddd41455baeb5eceb8404d08c.bindPopup(popup_6e5a9bb63d2b44569c91e9fb688db3df)
+        ;
+
+        
+    
+    
+            var marker_2e219ce5052a4a67ac0fe64cc26dd161 = L.marker(
+                [37.53368469999999, 127.1425723],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_9f6f520a64ec4d09b7f8969b2ee9c3aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2e219ce5052a4a67ac0fe64cc26dd161.setIcon(icon_9f6f520a64ec4d09b7f8969b2ee9c3aa);
+        
+    
+        var popup_2dd89b20922d46dbb7438ae1cc58d6a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e365bb200a9e44329fb9cb28e6e3c01f = $(`<div id="html_e365bb200a9e44329fb9cb28e6e3c01f" style="width: 100.0%; height: 100.0%;">오토오아시스 둔촌점</div>`)[0];
+            popup_2dd89b20922d46dbb7438ae1cc58d6a7.setContent(html_e365bb200a9e44329fb9cb28e6e3c01f);
+        
+
+        marker_2e219ce5052a4a67ac0fe64cc26dd161.bindPopup(popup_2dd89b20922d46dbb7438ae1cc58d6a7)
+        ;
+
+        
+    
+    
+            var marker_e6144f538a074682abdacec85959f24d = L.marker(
+                [37.5325199, 126.9529738],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_091a43a8da324422bdddf168e3432e7e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e6144f538a074682abdacec85959f24d.setIcon(icon_091a43a8da324422bdddf168e3432e7e);
+        
+    
+        var popup_094b62e760bd4f63b8232a477d1bc48e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5dc69593f5d146689b93d5ebcd11c0ca = $(`<div id="html_5dc69593f5d146689b93d5ebcd11c0ca" style="width: 100.0%; height: 100.0%;">위드모터스</div>`)[0];
+            popup_094b62e760bd4f63b8232a477d1bc48e.setContent(html_5dc69593f5d146689b93d5ebcd11c0ca);
+        
+
+        marker_e6144f538a074682abdacec85959f24d.bindPopup(popup_094b62e760bd4f63b8232a477d1bc48e)
+        ;
+
+        
+    
+    
+            var marker_27e40b0e791f462584da1d928f69ceae = L.marker(
+                [37.6208183, 127.028932],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_bec1abfb7aaa40b3a6e94a16ae91f07a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_27e40b0e791f462584da1d928f69ceae.setIcon(icon_bec1abfb7aaa40b3a6e94a16ae91f07a);
+        
+    
+        var popup_cdf28bfd23cc4125889da575232a8ac5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83f0840a01a9456baab716cdde2e4875 = $(`<div id="html_83f0840a01a9456baab716cdde2e4875" style="width: 100.0%; height: 100.0%;">진영자동차공업사</div>`)[0];
+            popup_cdf28bfd23cc4125889da575232a8ac5.setContent(html_83f0840a01a9456baab716cdde2e4875);
+        
+
+        marker_27e40b0e791f462584da1d928f69ceae.bindPopup(popup_cdf28bfd23cc4125889da575232a8ac5)
+        ;
+
+        
+    
+    
+            var marker_d70d88fde22c4c60b13b5c94d3702952 = L.marker(
+                [37.5056268, 126.8775437],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_86fc78e431714e00a8e816b757b08dfa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d70d88fde22c4c60b13b5c94d3702952.setIcon(icon_86fc78e431714e00a8e816b757b08dfa);
+        
+    
+        var popup_adf79375f9984971b35d8442f48ab2ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c27e380b6d774343a6447dda42e892e8 = $(`<div id="html_c27e380b6d774343a6447dda42e892e8" style="width: 100.0%; height: 100.0%;">케이모터스</div>`)[0];
+            popup_adf79375f9984971b35d8442f48ab2ab.setContent(html_c27e380b6d774343a6447dda42e892e8);
+        
+
+        marker_d70d88fde22c4c60b13b5c94d3702952.bindPopup(popup_adf79375f9984971b35d8442f48ab2ab)
+        ;
+
+        
+    
+    
+            var marker_695d74fce3454d2d950b0cba135c39a0 = L.marker(
+                [37.5029477, 127.1388218],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_fbce313c86ae45349517d271eedbdfa6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_695d74fce3454d2d950b0cba135c39a0.setIcon(icon_fbce313c86ae45349517d271eedbdfa6);
+        
+    
+        var popup_b16c36e259d446aaaddb73e7b12035f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba5e979958ff47fa9c7258f434a28b46 = $(`<div id="html_ba5e979958ff47fa9c7258f434a28b46" style="width: 100.0%; height: 100.0%;">현대카서비스오금점</div>`)[0];
+            popup_b16c36e259d446aaaddb73e7b12035f6.setContent(html_ba5e979958ff47fa9c7258f434a28b46);
+        
+
+        marker_695d74fce3454d2d950b0cba135c39a0.bindPopup(popup_b16c36e259d446aaaddb73e7b12035f6)
+        ;
+
+        
+    
+    
+            var marker_df2ab2d5df064b809de7f43f70da1325 = L.marker(
+                [37.4788694, 126.9999181],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_4e5ebb83b1c94b4ba66b8f57ea4e29a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_df2ab2d5df064b809de7f43f70da1325.setIcon(icon_4e5ebb83b1c94b4ba66b8f57ea4e29a3);
+        
+    
+        var popup_e70872509e0543768fd334cc7a5b5f1e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_19c802671f79457db7df388598f423bb = $(`<div id="html_19c802671f79457db7df388598f423bb" style="width: 100.0%; height: 100.0%;">(주)1급부국자동차정비</div>`)[0];
+            popup_e70872509e0543768fd334cc7a5b5f1e.setContent(html_19c802671f79457db7df388598f423bb);
+        
+
+        marker_df2ab2d5df064b809de7f43f70da1325.bindPopup(popup_e70872509e0543768fd334cc7a5b5f1e)
+        ;
+
+        
+    
+    
+            var marker_841fc6b2f9cc400ba9f69ef1bc6d60a1 = L.marker(
+                [37.4036434, 127.273458],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_ad0108891eb8451f9ba28836f58ad62a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_841fc6b2f9cc400ba9f69ef1bc6d60a1.setIcon(icon_ad0108891eb8451f9ba28836f58ad62a);
+        
+    
+        var popup_bf057dda105e476d9ed29bbe51981d77 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac092791653c48b2ab3793f6461d9ea5 = $(`<div id="html_ac092791653c48b2ab3793f6461d9ea5" style="width: 100.0%; height: 100.0%;">nan</div>`)[0];
+            popup_bf057dda105e476d9ed29bbe51981d77.setContent(html_ac092791653c48b2ab3793f6461d9ea5);
+        
+
+        marker_841fc6b2f9cc400ba9f69ef1bc6d60a1.bindPopup(popup_bf057dda105e476d9ed29bbe51981d77)
+        ;
+
+        
+    
+    
+            var marker_5b5057e057b2492ead29de30e6b28c23 = L.marker(
+                [37.3693798, 127.1100802],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_af0f267a056646619ee3cb43066f4152 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5b5057e057b2492ead29de30e6b28c23.setIcon(icon_af0f267a056646619ee3cb43066f4152);
+        
+    
+        var popup_853e848fbb4c4cf78d8fda9a29ada86a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72bc4e6ba93b49d0a5e42ffa79a95f64 = $(`<div id="html_72bc4e6ba93b49d0a5e42ffa79a95f64" style="width: 100.0%; height: 100.0%;">기아카클리닉</div>`)[0];
+            popup_853e848fbb4c4cf78d8fda9a29ada86a.setContent(html_72bc4e6ba93b49d0a5e42ffa79a95f64);
+        
+
+        marker_5b5057e057b2492ead29de30e6b28c23.bindPopup(popup_853e848fbb4c4cf78d8fda9a29ada86a)
+        ;
+
+        
+    
+    
+            var marker_4417ce2d1ade46618febac4a5de0104e = L.marker(
+                [37.3870802, 126.9275953],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_244f71d7b54f4388bfa0ad5f0ee39631 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4417ce2d1ade46618febac4a5de0104e.setIcon(icon_244f71d7b54f4388bfa0ad5f0ee39631);
+        
+    
+        var popup_62c5ce1566754640b651c61a9bdfe1c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75a109fb5adf4929a2d4cc2fb29c4a1f = $(`<div id="html_75a109fb5adf4929a2d4cc2fb29c4a1f" style="width: 100.0%; height: 100.0%;">다온자동차</div>`)[0];
+            popup_62c5ce1566754640b651c61a9bdfe1c0.setContent(html_75a109fb5adf4929a2d4cc2fb29c4a1f);
+        
+
+        marker_4417ce2d1ade46618febac4a5de0104e.bindPopup(popup_62c5ce1566754640b651c61a9bdfe1c0)
+        ;
+
+        
+    
+    
+            var marker_625c07e4315b4c64b8034170128f60f9 = L.marker(
+                [37.52412229999999, 126.7869621],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_b66f33fd9c5b4fa090f72503a1314304 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_625c07e4315b4c64b8034170128f60f9.setIcon(icon_b66f33fd9c5b4fa090f72503a1314304);
+        
+    
+        var popup_f40b7379752f44fc8133b04f17ff0acd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ca591cc14e74f2087f019a174c304a7 = $(`<div id="html_1ca591cc14e74f2087f019a174c304a7" style="width: 100.0%; height: 100.0%;">명모터스</div>`)[0];
+            popup_f40b7379752f44fc8133b04f17ff0acd.setContent(html_1ca591cc14e74f2087f019a174c304a7);
+        
+
+        marker_625c07e4315b4c64b8034170128f60f9.bindPopup(popup_f40b7379752f44fc8133b04f17ff0acd)
+        ;
+
+        
+    
+    
+            var marker_a9a2fd09c1c04f688013b333079131b4 = L.marker(
+                [37.5199864, 127.2253046],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_132c0cba9946443ebdc04281fc64dfb5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a9a2fd09c1c04f688013b333079131b4.setIcon(icon_132c0cba9946443ebdc04281fc64dfb5);
+        
+    
+        var popup_4216697f494c460da3796a91b6ff2e1c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_48fe3e44e9d946e09fa9e443ca20a4f2 = $(`<div id="html_48fe3e44e9d946e09fa9e443ca20a4f2" style="width: 100.0%; height: 100.0%;">수리수리차수리</div>`)[0];
+            popup_4216697f494c460da3796a91b6ff2e1c.setContent(html_48fe3e44e9d946e09fa9e443ca20a4f2);
+        
+
+        marker_a9a2fd09c1c04f688013b333079131b4.bindPopup(popup_4216697f494c460da3796a91b6ff2e1c)
+        ;
+
+        
+    
+    
+            var marker_75dbff6533b2403f9b6648d001d7b3d6 = L.marker(
+                [37.4026356, 126.7762816],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_cceac52eda814f3883c17fd630f2cd25 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_75dbff6533b2403f9b6648d001d7b3d6.setIcon(icon_cceac52eda814f3883c17fd630f2cd25);
+        
+    
+        var popup_c1d626cbb3d5403b8a9a2b1b3ac85077 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a8214b30cf354565aac237f80f41bafb = $(`<div id="html_a8214b30cf354565aac237f80f41bafb" style="width: 100.0%; height: 100.0%;">스피릿개러지</div>`)[0];
+            popup_c1d626cbb3d5403b8a9a2b1b3ac85077.setContent(html_a8214b30cf354565aac237f80f41bafb);
+        
+
+        marker_75dbff6533b2403f9b6648d001d7b3d6.bindPopup(popup_c1d626cbb3d5403b8a9a2b1b3ac85077)
+        ;
+
+        
+    
+    
+            var marker_16304b5c14c144da9031a909bf7b2b4b = L.marker(
+                [37.1999318, 127.0052893],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_dd113f94327247cabf269a2b78937028 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_16304b5c14c144da9031a909bf7b2b4b.setIcon(icon_dd113f94327247cabf269a2b78937028);
+        
+    
+        var popup_21b14a0451644b6fa2e4c3d29e13a42d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a181206a0bd940d291ce7e564c99fafe = $(`<div id="html_a181206a0bd940d291ce7e564c99fafe" style="width: 100.0%; height: 100.0%;">카라운드</div>`)[0];
+            popup_21b14a0451644b6fa2e4c3d29e13a42d.setContent(html_a181206a0bd940d291ce7e564c99fafe);
+        
+
+        marker_16304b5c14c144da9031a909bf7b2b4b.bindPopup(popup_21b14a0451644b6fa2e4c3d29e13a42d)
+        ;
+
+        
+    
+    
+            var marker_1ca8b3c9a77640189fead41702ebe944 = L.marker(
+                [37.248657, 126.9791728],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_612024508b384fdd88fe7baef318b4d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1ca8b3c9a77640189fead41702ebe944.setIcon(icon_612024508b384fdd88fe7baef318b4d0);
+        
+    
+        var popup_8dd269cf58b34d44831ffb7b7ada00d3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f864f8ef13b4f2380a0c0e4c075aa90 = $(`<div id="html_3f864f8ef13b4f2380a0c0e4c075aa90" style="width: 100.0%; height: 100.0%;">AP오토서비스</div>`)[0];
+            popup_8dd269cf58b34d44831ffb7b7ada00d3.setContent(html_3f864f8ef13b4f2380a0c0e4c075aa90);
+        
+
+        marker_1ca8b3c9a77640189fead41702ebe944.bindPopup(popup_8dd269cf58b34d44831ffb7b7ada00d3)
+        ;
+
+        
+    
+    
+            var marker_678eb5bfacd5423fa9f1973608c32157 = L.marker(
+                [37.7498991, 127.0537893],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_7535e12b638e47acb84bf45b89bb6674 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_678eb5bfacd5423fa9f1973608c32157.setIcon(icon_7535e12b638e47acb84bf45b89bb6674);
+        
+    
+        var popup_3cbe374701c94b39b9cc8f52c8bbdbd2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_264fe150b4c34f4390644b448a8c1e18 = $(`<div id="html_264fe150b4c34f4390644b448a8c1e18" style="width: 100.0%; height: 100.0%;">정한공업사</div>`)[0];
+            popup_3cbe374701c94b39b9cc8f52c8bbdbd2.setContent(html_264fe150b4c34f4390644b448a8c1e18);
+        
+
+        marker_678eb5bfacd5423fa9f1973608c32157.bindPopup(popup_3cbe374701c94b39b9cc8f52c8bbdbd2)
+        ;
+
+        
+    
+    
+            var marker_155c3c68d7c04a2aa37dade27804e4f9 = L.marker(
+                [37.590799, 127.0277773],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_260c5627cfac4052b2c29d2639ef823f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_155c3c68d7c04a2aa37dade27804e4f9.setIcon(icon_260c5627cfac4052b2c29d2639ef823f);
+        
+    
+        var popup_d109c4061ca04394b488c255464a1549 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_78366d6f66004e558c3dae0e1c5c29cc = $(`<div id="html_78366d6f66004e558c3dae0e1c5c29cc" style="width: 100.0%; height: 100.0%;">보문차병원</div>`)[0];
+            popup_d109c4061ca04394b488c255464a1549.setContent(html_78366d6f66004e558c3dae0e1c5c29cc);
+        
+
+        marker_155c3c68d7c04a2aa37dade27804e4f9.bindPopup(popup_d109c4061ca04394b488c255464a1549)
+        ;
+
+        
+    
+    
+            var marker_8cc12b0bf7a2419dbcbf7cc308deea9a = L.marker(
+                [37.636003, 127.216528],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_9f0a877a32b448169cc6155be8b10434 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8cc12b0bf7a2419dbcbf7cc308deea9a.setIcon(icon_9f0a877a32b448169cc6155be8b10434);
+        
+    
+        var popup_e0e92b5e84824f438ec9a7aa80dd4d93 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_420fc708f87e4496b2ae1e3cf3110bee = $(`<div id="html_420fc708f87e4496b2ae1e3cf3110bee" style="width: 100.0%; height: 100.0%;">자동차와좋은사람들</div>`)[0];
+            popup_e0e92b5e84824f438ec9a7aa80dd4d93.setContent(html_420fc708f87e4496b2ae1e3cf3110bee);
+        
+
+        marker_8cc12b0bf7a2419dbcbf7cc308deea9a.bindPopup(popup_e0e92b5e84824f438ec9a7aa80dd4d93)
+        ;
+
+        
+    
+    
+            var marker_6e9eed1679524f8192ba12718598c444 = L.marker(
+                [36.9984323, 127.1447975],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_3b79d376439b4e8f9f87639053d28e6b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6e9eed1679524f8192ba12718598c444.setIcon(icon_3b79d376439b4e8f9f87639053d28e6b);
+        
+    
+        var popup_e3453933ac1d42818c6fd8fb0329015b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3094fdb3be6c4fda95d7f4af8438d770 = $(`<div id="html_3094fdb3be6c4fda95d7f4af8438d770" style="width: 100.0%; height: 100.0%;">차우모터스</div>`)[0];
+            popup_e3453933ac1d42818c6fd8fb0329015b.setContent(html_3094fdb3be6c4fda95d7f4af8438d770);
+        
+
+        marker_6e9eed1679524f8192ba12718598c444.bindPopup(popup_e3453933ac1d42818c6fd8fb0329015b)
+        ;
+
+        
+    
+    
+            var marker_c3e7156260414a659c99643726c5a7e0 = L.marker(
+                [37.4887434, 126.6640283],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_5ec8569399d84d08a21fb42eacd0db7b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c3e7156260414a659c99643726c5a7e0.setIcon(icon_5ec8569399d84d08a21fb42eacd0db7b);
+        
+    
+        var popup_f136ffee56754af0a54f7e97532a6fd8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e68561ad05fa4dd295c9f715fedce4b6 = $(`<div id="html_e68561ad05fa4dd295c9f715fedce4b6" style="width: 100.0%; height: 100.0%;">바름정비 인천가좌점</div>`)[0];
+            popup_f136ffee56754af0a54f7e97532a6fd8.setContent(html_e68561ad05fa4dd295c9f715fedce4b6);
+        
+
+        marker_c3e7156260414a659c99643726c5a7e0.bindPopup(popup_f136ffee56754af0a54f7e97532a6fd8)
+        ;
+
+        
+    
+    
+            var marker_9c678292a45140b6aeb98f810fae951c = L.marker(
+                [37.5056726, 126.5336087],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_5673b642e1b24f82b1fffe29bbc14567 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9c678292a45140b6aeb98f810fae951c.setIcon(icon_5673b642e1b24f82b1fffe29bbc14567);
+        
+    
+        var popup_3d72df4545374e579a3bcfb53a6d4b3d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5511bf8547d841dd8c57d5db3fb1788d = $(`<div id="html_5511bf8547d841dd8c57d5db3fb1788d" style="width: 100.0%; height: 100.0%;">씨원모터스</div>`)[0];
+            popup_3d72df4545374e579a3bcfb53a6d4b3d.setContent(html_5511bf8547d841dd8c57d5db3fb1788d);
+        
+
+        marker_9c678292a45140b6aeb98f810fae951c.bindPopup(popup_3d72df4545374e579a3bcfb53a6d4b3d)
+        ;
+
+        
+    
+    
+            var marker_6734b2b831624a6aa63d49242f890865 = L.marker(
+                [37.3888568, 126.7158793],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_7aff3bb0bc3e43d2ac2642e0ae1abde8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6734b2b831624a6aa63d49242f890865.setIcon(icon_7aff3bb0bc3e43d2ac2642e0ae1abde8);
+        
+    
+        var popup_37ef24754e4f4fabb7ee88ac87e13d8e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa05694cf9e34e57b5b889993b001d51 = $(`<div id="html_aa05694cf9e34e57b5b889993b001d51" style="width: 100.0%; height: 100.0%;">아이피모터스</div>`)[0];
+            popup_37ef24754e4f4fabb7ee88ac87e13d8e.setContent(html_aa05694cf9e34e57b5b889993b001d51);
+        
+
+        marker_6734b2b831624a6aa63d49242f890865.bindPopup(popup_37ef24754e4f4fabb7ee88ac87e13d8e)
+        ;
+
+        
+    
+    
+            var marker_cfa74c21152e496792dcb52f629467ed = L.marker(
+                [37.4657592, 126.6862914],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_0941175b8ef84fd6b1d31d3786e5eaaf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cfa74c21152e496792dcb52f629467ed.setIcon(icon_0941175b8ef84fd6b1d31d3786e5eaaf);
+        
+    
+        var popup_08fbe7dd52f648c7b47b22f8e84c1f30 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_85ccaccb3e5f42aba531dc59cbb51247 = $(`<div id="html_85ccaccb3e5f42aba531dc59cbb51247" style="width: 100.0%; height: 100.0%;">멘토모터스</div>`)[0];
+            popup_08fbe7dd52f648c7b47b22f8e84c1f30.setContent(html_85ccaccb3e5f42aba531dc59cbb51247);
+        
+
+        marker_cfa74c21152e496792dcb52f629467ed.bindPopup(popup_08fbe7dd52f648c7b47b22f8e84c1f30)
+        ;
+
+        
+    
+    
+            var marker_9969abbf8ed846abbd2ef92275c240ab = L.marker(
+                [37.647285, 126.7857277],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_9fa360100ed146caa69cdc6fbb089eb0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9969abbf8ed846abbd2ef92275c240ab.setIcon(icon_9fa360100ed146caa69cdc6fbb089eb0);
+        
+    
+        var popup_292df363f52b460a8e03584e8be52791 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1354539dbee84749aec4d3ac92335330 = $(`<div id="html_1354539dbee84749aec4d3ac92335330" style="width: 100.0%; height: 100.0%;">여우카</div>`)[0];
+            popup_292df363f52b460a8e03584e8be52791.setContent(html_1354539dbee84749aec4d3ac92335330);
+        
+
+        marker_9969abbf8ed846abbd2ef92275c240ab.bindPopup(popup_292df363f52b460a8e03584e8be52791)
+        ;
+
+        
+    
+    
+            var marker_03b445ebc3fe41be8f72afabd2a3b518 = L.marker(
+                [37.7266272, 126.7093118],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_f4f4152e4dc2498ab6426f85a5fb755e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_03b445ebc3fe41be8f72afabd2a3b518.setIcon(icon_f4f4152e4dc2498ab6426f85a5fb755e);
+        
+    
+        var popup_e7dd091941674e0f97e36470188d3ca5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_faea4716eef940a29aea82b5afbb8de6 = $(`<div id="html_faea4716eef940a29aea82b5afbb8de6" style="width: 100.0%; height: 100.0%;">하나모터스</div>`)[0];
+            popup_e7dd091941674e0f97e36470188d3ca5.setContent(html_faea4716eef940a29aea82b5afbb8de6);
+        
+
+        marker_03b445ebc3fe41be8f72afabd2a3b518.bindPopup(popup_e7dd091941674e0f97e36470188d3ca5)
+        ;
+
+        
+    
+    
+            var marker_2c39addfbe974574814310e2e556f881 = L.marker(
+                [37.5110964, 127.0476817],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_d5aafb326e4d49e9810866b7c78dd42c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2c39addfbe974574814310e2e556f881.setIcon(icon_d5aafb326e4d49e9810866b7c78dd42c);
+        
+    
+        var popup_a7f8a9b1a19340ea8cd16f74c5774d6b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea0369c1501342a794e22bfc88613ec5 = $(`<div id="html_ea0369c1501342a794e22bfc88613ec5" style="width: 100.0%; height: 100.0%;">타이어프로 삼성점</div>`)[0];
+            popup_a7f8a9b1a19340ea8cd16f74c5774d6b.setContent(html_ea0369c1501342a794e22bfc88613ec5);
+        
+
+        marker_2c39addfbe974574814310e2e556f881.bindPopup(popup_a7f8a9b1a19340ea8cd16f74c5774d6b)
+        ;
+
+        
+    
+    
+            var marker_03f86bdf334b4ac7a1e5968e70cfe07e = L.marker(
+                [37.3018086, 126.8424562],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_f5c8b1adf6894e4187cc3b3a63a2c4bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_03f86bdf334b4ac7a1e5968e70cfe07e.setIcon(icon_f5c8b1adf6894e4187cc3b3a63a2c4bf);
+        
+    
+        var popup_e4a95e665ed4436b968b2b2a95cedf81 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7cc37393f3d4792ac95e813e5febfb2 = $(`<div id="html_e7cc37393f3d4792ac95e813e5febfb2" style="width: 100.0%; height: 100.0%;">오토오아시스 한양대점</div>`)[0];
+            popup_e4a95e665ed4436b968b2b2a95cedf81.setContent(html_e7cc37393f3d4792ac95e813e5febfb2);
+        
+
+        marker_03f86bdf334b4ac7a1e5968e70cfe07e.bindPopup(popup_e4a95e665ed4436b968b2b2a95cedf81)
+        ;
+
+        
+    
+    
+            var marker_9dfa8d91ed9f4d67bc48eb8ab77f9072 = L.marker(
+                [37.32987550000001, 127.1041991],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_46cd8cbb208444db93574b04a35ce228 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9dfa8d91ed9f4d67bc48eb8ab77f9072.setIcon(icon_46cd8cbb208444db93574b04a35ce228);
+        
+    
+        var popup_16366ab468214655912c263bd02e0e94 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca71b43326ed4de4986c2827b6f60a95 = $(`<div id="html_ca71b43326ed4de4986c2827b6f60a95" style="width: 100.0%; height: 100.0%;">TG모터스</div>`)[0];
+            popup_16366ab468214655912c263bd02e0e94.setContent(html_ca71b43326ed4de4986c2827b6f60a95);
+        
+
+        marker_9dfa8d91ed9f4d67bc48eb8ab77f9072.bindPopup(popup_16366ab468214655912c263bd02e0e94)
+        ;
+
+        
+    
+    
+            var marker_c1245c4595114f0bbf8faa732d1d214e = L.marker(
+                [37.3010386, 126.9839877],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_6061078bcd2a47ef927312a503e0e433 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c1245c4595114f0bbf8faa732d1d214e.setIcon(icon_6061078bcd2a47ef927312a503e0e433);
+        
+    
+        var popup_bc31500e733c40b49741a6e1a54aba4c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75ea00c751d24439a2f329f289ac9997 = $(`<div id="html_75ea00c751d24439a2f329f289ac9997" style="width: 100.0%; height: 100.0%;">한국타이어 하이테크점</div>`)[0];
+            popup_bc31500e733c40b49741a6e1a54aba4c.setContent(html_75ea00c751d24439a2f329f289ac9997);
+        
+
+        marker_c1245c4595114f0bbf8faa732d1d214e.bindPopup(popup_bc31500e733c40b49741a6e1a54aba4c)
+        ;
+
+        
+    
+    
+            var marker_9b596b16a5334361ad9ee8a66fa1c1c4 = L.marker(
+                [35.1112577, 129.085935],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_c43c744bdfb14484b448fc4827c4a155 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9b596b16a5334361ad9ee8a66fa1c1c4.setIcon(icon_c43c744bdfb14484b448fc4827c4a155);
+        
+    
+        var popup_90a74b19708547cd9c561e1710dddb87 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd9897f2cd954e88973a4448a29878b2 = $(`<div id="html_fd9897f2cd954e88973a4448a29878b2" style="width: 100.0%; height: 100.0%;">와이에이치모터스</div>`)[0];
+            popup_90a74b19708547cd9c561e1710dddb87.setContent(html_fd9897f2cd954e88973a4448a29878b2);
+        
+
+        marker_9b596b16a5334361ad9ee8a66fa1c1c4.bindPopup(popup_90a74b19708547cd9c561e1710dddb87)
+        ;
+
+        
+    
+    
+            var marker_7580ec226fd94377854f8f4c16decd26 = L.marker(
+                [35.1628346, 129.0468364],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_47e783462fc04192b182426289ff499d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7580ec226fd94377854f8f4c16decd26.setIcon(icon_47e783462fc04192b182426289ff499d);
+        
+    
+        var popup_74eeae6969ad4276b2bea62a37c004d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d067d1a725bf4f1c9cb5da0f60a8712b = $(`<div id="html_d067d1a725bf4f1c9cb5da0f60a8712b" style="width: 100.0%; height: 100.0%;">동서모터스</div>`)[0];
+            popup_74eeae6969ad4276b2bea62a37c004d6.setContent(html_d067d1a725bf4f1c9cb5da0f60a8712b);
+        
+
+        marker_7580ec226fd94377854f8f4c16decd26.bindPopup(popup_74eeae6969ad4276b2bea62a37c004d6)
+        ;
+
+        
+    
+    
+            var marker_c32210df6ff244d48125bb3e39ee4bae = L.marker(
+                [35.1896487, 129.1074792],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_247b92df678c45deb64b300c31377f7a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c32210df6ff244d48125bb3e39ee4bae.setIcon(icon_247b92df678c45deb64b300c31377f7a);
+        
+    
+        var popup_e9ddfdbbdb7b42d788b88c302ef1628c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_700d9a694e2f4c69a52a3595e139639a = $(`<div id="html_700d9a694e2f4c69a52a3595e139639a" style="width: 100.0%; height: 100.0%;">진MOTORS</div>`)[0];
+            popup_e9ddfdbbdb7b42d788b88c302ef1628c.setContent(html_700d9a694e2f4c69a52a3595e139639a);
+        
+
+        marker_c32210df6ff244d48125bb3e39ee4bae.bindPopup(popup_e9ddfdbbdb7b42d788b88c302ef1628c)
+        ;
+
+        
+    
+    
+            var marker_47b271a3f1ad4858b0db941ab0c53913 = L.marker(
+                [35.0788484, 128.9729906],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_2dd273772d2141388d463bbf02411fe7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_47b271a3f1ad4858b0db941ab0c53913.setIcon(icon_2dd273772d2141388d463bbf02411fe7);
+        
+    
+        var popup_c1ef8368781b4bb7b4a59e9baa64704d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_35aca1a479024c45be08b712849cf5e9 = $(`<div id="html_35aca1a479024c45be08b712849cf5e9" style="width: 100.0%; height: 100.0%;">티스테이션 장림점</div>`)[0];
+            popup_c1ef8368781b4bb7b4a59e9baa64704d.setContent(html_35aca1a479024c45be08b712849cf5e9);
+        
+
+        marker_47b271a3f1ad4858b0db941ab0c53913.bindPopup(popup_c1ef8368781b4bb7b4a59e9baa64704d)
+        ;
+
+        
+    
+    
+            var marker_e5a23f10f58c4b5c8c3a373bdf511c52 = L.marker(
+                [35.2082382, 129.0087184],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_6d06c527526f446b9ca820e62d118b69 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e5a23f10f58c4b5c8c3a373bdf511c52.setIcon(icon_6d06c527526f446b9ca820e62d118b69);
+        
+    
+        var popup_88d9994c143647bba8857410ecd20a63 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aff2b86fbf4f4e879fe87bb9629cc91f = $(`<div id="html_aff2b86fbf4f4e879fe87bb9629cc91f" style="width: 100.0%; height: 100.0%;">차사랑</div>`)[0];
+            popup_88d9994c143647bba8857410ecd20a63.setContent(html_aff2b86fbf4f4e879fe87bb9629cc91f);
+        
+
+        marker_e5a23f10f58c4b5c8c3a373bdf511c52.bindPopup(popup_88d9994c143647bba8857410ecd20a63)
+        ;
+
+        
+    
+    
+            var marker_6018bf152b5c4fe58d0b63056bc2bfbb = L.marker(
+                [35.2108215, 128.710793],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_3ebb41964be14fb7b87e4886c7411c68 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6018bf152b5c4fe58d0b63056bc2bfbb.setIcon(icon_3ebb41964be14fb7b87e4886c7411c68);
+        
+    
+        var popup_e41989ea40494457803bff5f4adcacbb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0ee54e3baf34b699f0b45921b6b99a8 = $(`<div id="html_a0ee54e3baf34b699f0b45921b6b99a8" style="width: 100.0%; height: 100.0%;">공임나라 창원대방점</div>`)[0];
+            popup_e41989ea40494457803bff5f4adcacbb.setContent(html_a0ee54e3baf34b699f0b45921b6b99a8);
+        
+
+        marker_6018bf152b5c4fe58d0b63056bc2bfbb.bindPopup(popup_e41989ea40494457803bff5f4adcacbb)
+        ;
+
+        
+    
+    
+            var marker_c466a631f4d64e268f85846fb6487cde = L.marker(
+                [35.153528, 128.6841253],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_fbfc828efea64c98a7b41558ed43df9d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c466a631f4d64e268f85846fb6487cde.setIcon(icon_fbfc828efea64c98a7b41558ed43df9d);
+        
+    
+        var popup_74d1586026c74b859bea50278df833b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18841a7eefdb41489a5d9fbe4457cd94 = $(`<div id="html_18841a7eefdb41489a5d9fbe4457cd94" style="width: 100.0%; height: 100.0%;">티스테이션 진해경화점</div>`)[0];
+            popup_74d1586026c74b859bea50278df833b7.setContent(html_18841a7eefdb41489a5d9fbe4457cd94);
+        
+
+        marker_c466a631f4d64e268f85846fb6487cde.bindPopup(popup_74d1586026c74b859bea50278df833b7)
+        ;
+
+        
+    
+    
+            var marker_e54a716d518647c4a13405243dcd4be7 = L.marker(
+                [35.54011819999999, 129.3310084],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_f5eeb3a3fa004c8d81e0e86311350d5c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e54a716d518647c4a13405243dcd4be7.setIcon(icon_f5eeb3a3fa004c8d81e0e86311350d5c);
+        
+    
+        var popup_a3794f9acda1490a9eb1c3e98113e84d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4857d43823ce4827b17c34897d87bf54 = $(`<div id="html_4857d43823ce4827b17c34897d87bf54" style="width: 100.0%; height: 100.0%;">애니카랜드 삼산점</div>`)[0];
+            popup_a3794f9acda1490a9eb1c3e98113e84d.setContent(html_4857d43823ce4827b17c34897d87bf54);
+        
+
+        marker_e54a716d518647c4a13405243dcd4be7.bindPopup(popup_a3794f9acda1490a9eb1c3e98113e84d)
+        ;
+
+        
+    
+    
+            var marker_818fa0b216944b8dacdfc84a660c45ab = L.marker(
+                [35.5384274, 129.2554483],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_3c2f88cec7c842579e8bf6e10237c67b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_818fa0b216944b8dacdfc84a660c45ab.setIcon(icon_3c2f88cec7c842579e8bf6e10237c67b);
+        
+    
+        var popup_78c7fba392d64e7a92a5757d80969382 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc5da302a159453da50b8823e0bd4abf = $(`<div id="html_bc5da302a159453da50b8823e0bd4abf" style="width: 100.0%; height: 100.0%;">전문정비무거남부점</div>`)[0];
+            popup_78c7fba392d64e7a92a5757d80969382.setContent(html_bc5da302a159453da50b8823e0bd4abf);
+        
+
+        marker_818fa0b216944b8dacdfc84a660c45ab.bindPopup(popup_78c7fba392d64e7a92a5757d80969382)
+        ;
+
+        
+    
+    
+            var marker_e10159668fa949e18e47e6086fb99838 = L.marker(
+                [35.6304807, 129.3250817],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_e9ddd2dd7eeb4b65bbad6beb640a3805 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e10159668fa949e18e47e6086fb99838.setIcon(icon_e9ddd2dd7eeb4b65bbad6beb640a3805);
+        
+    
+        var popup_d4e00011e5054d39be244b2f19562a9e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ef9cedb26e44c2e865b704aaabda7ca = $(`<div id="html_4ef9cedb26e44c2e865b704aaabda7ca" style="width: 100.0%; height: 100.0%;">카마린</div>`)[0];
+            popup_d4e00011e5054d39be244b2f19562a9e.setContent(html_4ef9cedb26e44c2e865b704aaabda7ca);
+        
+
+        marker_e10159668fa949e18e47e6086fb99838.bindPopup(popup_d4e00011e5054d39be244b2f19562a9e)
+        ;
+
+        
+    
+    
+            var marker_1e9aca0dc3ed4125bd0d95cc54110d74 = L.marker(
+                [37.4150567, 126.6751684],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_7149f9c7373d4b199315ce61f09a8b26 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1e9aca0dc3ed4125bd0d95cc54110d74.setIcon(icon_7149f9c7373d4b199315ce61f09a8b26);
+        
+    
+        var popup_a63ee0b5d5864cc7ac28025ba632bb04 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27ca32c8eec54853b521078c1fd9b57e = $(`<div id="html_27ca32c8eec54853b521078c1fd9b57e" style="width: 100.0%; height: 100.0%;">타이어프로 연수점</div>`)[0];
+            popup_a63ee0b5d5864cc7ac28025ba632bb04.setContent(html_27ca32c8eec54853b521078c1fd9b57e);
+        
+
+        marker_1e9aca0dc3ed4125bd0d95cc54110d74.bindPopup(popup_a63ee0b5d5864cc7ac28025ba632bb04)
+        ;
+
+        
+    
+    
+            var marker_b422f916b72a4e6b93531a5acc11c4a0 = L.marker(
+                [37.4485847, 126.6683378],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_9a9674262e714b3580661a8dc7102999 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b422f916b72a4e6b93531a5acc11c4a0.setIcon(icon_9a9674262e714b3580661a8dc7102999);
+        
+    
+        var popup_17f2a2d8277443249ea0f3c2ce1f694b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_73fc87fad4b74f09bf8035cd2001f311 = $(`<div id="html_73fc87fad4b74f09bf8035cd2001f311" style="width: 100.0%; height: 100.0%;">콘티넨탈 인천점</div>`)[0];
+            popup_17f2a2d8277443249ea0f3c2ce1f694b.setContent(html_73fc87fad4b74f09bf8035cd2001f311);
+        
+
+        marker_b422f916b72a4e6b93531a5acc11c4a0.bindPopup(popup_17f2a2d8277443249ea0f3c2ce1f694b)
+        ;
+
+        
+    
+    
+            var marker_aa14a4387310453c8370168ac103ffac = L.marker(
+                [37.6509048, 126.6422033],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_0bb62f80159f4c6ab1e306c6f1bfc06d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_aa14a4387310453c8370168ac103ffac.setIcon(icon_0bb62f80159f4c6ab1e306c6f1bfc06d);
+        
+    
+        var popup_e2f3963309094393bebbf28ef719283a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec47b7237fb14f56bf6d96ced412560a = $(`<div id="html_ec47b7237fb14f56bf6d96ced412560a" style="width: 100.0%; height: 100.0%;">YHMotors</div>`)[0];
+            popup_e2f3963309094393bebbf28ef719283a.setContent(html_ec47b7237fb14f56bf6d96ced412560a);
+        
+
+        marker_aa14a4387310453c8370168ac103ffac.bindPopup(popup_e2f3963309094393bebbf28ef719283a)
+        ;
+
+        
+    
+    
+            var marker_2c84dae71fa54f969e1c6e57c5544848 = L.marker(
+                [37.6266852, 126.7115583],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_87a0ec1e429340cbb0e5566eeb01718d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2c84dae71fa54f969e1c6e57c5544848.setIcon(icon_87a0ec1e429340cbb0e5566eeb01718d);
+        
+    
+        var popup_fc9a39b6c750409a8a07899f63fc73d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0687d7f56a28445080dd9f7944f75f9b = $(`<div id="html_0687d7f56a28445080dd9f7944f75f9b" style="width: 100.0%; height: 100.0%;">카포스한강차량정비</div>`)[0];
+            popup_fc9a39b6c750409a8a07899f63fc73d0.setContent(html_0687d7f56a28445080dd9f7944f75f9b);
+        
+
+        marker_2c84dae71fa54f969e1c6e57c5544848.bindPopup(popup_fc9a39b6c750409a8a07899f63fc73d0)
+        ;
+
+        
+    
+    
+            var marker_cba1d6d537cf4ba2babf5c7a532dac5d = L.marker(
+                [37.4905101, 126.7774171],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_9f05cabb7a2c4b8db38d6a4a6095bf43 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cba1d6d537cf4ba2babf5c7a532dac5d.setIcon(icon_9f05cabb7a2c4b8db38d6a4a6095bf43);
+        
+    
+        var popup_fc2b60dfca52484db51a73bc748e2a42 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_661285b22fdc42eaaf510323f41e02dd = $(`<div id="html_661285b22fdc42eaaf510323f41e02dd" style="width: 100.0%; height: 100.0%;">한진타이어</div>`)[0];
+            popup_fc2b60dfca52484db51a73bc748e2a42.setContent(html_661285b22fdc42eaaf510323f41e02dd);
+        
+
+        marker_cba1d6d537cf4ba2babf5c7a532dac5d.bindPopup(popup_fc2b60dfca52484db51a73bc748e2a42)
+        ;
+
+        
+    
+    
+            var marker_0cdfc7f0f35843749408cb3ce4a43897 = L.marker(
+                [37.6348265, 127.1156625],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_49d786e69b7245fdb3f9a216fb1d8dd3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0cdfc7f0f35843749408cb3ce4a43897.setIcon(icon_49d786e69b7245fdb3f9a216fb1d8dd3);
+        
+    
+        var popup_bf8060f9e5ee48b887ffa8009884a8d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e59b06371f8c48f88eef90cfcc48a684 = $(`<div id="html_e59b06371f8c48f88eef90cfcc48a684" style="width: 100.0%; height: 100.0%;">W모터스</div>`)[0];
+            popup_bf8060f9e5ee48b887ffa8009884a8d7.setContent(html_e59b06371f8c48f88eef90cfcc48a684);
+        
+
+        marker_0cdfc7f0f35843749408cb3ce4a43897.bindPopup(popup_bf8060f9e5ee48b887ffa8009884a8d7)
+        ;
+
+        
+    
+    
+            var marker_b107bb2ba44b45aba09940da4bbd3152 = L.marker(
+                [37.58961499999999, 127.1303135],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_d42f83fd701b4d5b8fcc42b35d8b1638 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b107bb2ba44b45aba09940da4bbd3152.setIcon(icon_d42f83fd701b4d5b8fcc42b35d8b1638);
+        
+    
+        var popup_36f54d45651b4804ab78415ad7bdf6a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d1ad6151f947407cb6ee7323615ea4e1 = $(`<div id="html_d1ad6151f947407cb6ee7323615ea4e1" style="width: 100.0%; height: 100.0%;">티스테이션 구리점</div>`)[0];
+            popup_36f54d45651b4804ab78415ad7bdf6a9.setContent(html_d1ad6151f947407cb6ee7323615ea4e1);
+        
+
+        marker_b107bb2ba44b45aba09940da4bbd3152.bindPopup(popup_36f54d45651b4804ab78415ad7bdf6a9)
+        ;
+
+        
+    
+    
+            var marker_d915bffe8078434c923193d24cab2ee9 = L.marker(
+                [37.2521828, 127.041861],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_f6e2562e00cb4fcb9c81765f7492213c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d915bffe8078434c923193d24cab2ee9.setIcon(icon_f6e2562e00cb4fcb9c81765f7492213c);
+        
+    
+        var popup_37a4467b6ee14309bbb33a7b16884783 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_09d1d26f86204b8cbd41f540b564db97 = $(`<div id="html_09d1d26f86204b8cbd41f540b564db97" style="width: 100.0%; height: 100.0%;">애니카랜드신동점</div>`)[0];
+            popup_37a4467b6ee14309bbb33a7b16884783.setContent(html_09d1d26f86204b8cbd41f540b564db97);
+        
+
+        marker_d915bffe8078434c923193d24cab2ee9.bindPopup(popup_37a4467b6ee14309bbb33a7b16884783)
+        ;
+
+        
+    
+    
+            var marker_16cd42ed582647a99d1f233dd47d550f = L.marker(
+                [37.3343234, 126.9264534],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_0da0bb82ca6f4d0bb724aa38e08003e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_16cd42ed582647a99d1f233dd47d550f.setIcon(icon_0da0bb82ca6f4d0bb724aa38e08003e8);
+        
+    
+        var popup_3c07fd28fa4446a9802086fc67c006f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9264b21f121243f785b3e9e731cfd471 = $(`<div id="html_9264b21f121243f785b3e9e731cfd471" style="width: 100.0%; height: 100.0%;">금호타이어 군포첨단점</div>`)[0];
+            popup_3c07fd28fa4446a9802086fc67c006f6.setContent(html_9264b21f121243f785b3e9e731cfd471);
+        
+
+        marker_16cd42ed582647a99d1f233dd47d550f.bindPopup(popup_3c07fd28fa4446a9802086fc67c006f6)
+        ;
+
+        
+    
+    
+            var marker_ec9a481f9ec74992b622d23fc517adfa = L.marker(
+                [35.249011, 128.6168055],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_2c1ad66845a743d693ec010a58f5632e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ec9a481f9ec74992b622d23fc517adfa.setIcon(icon_2c1ad66845a743d693ec010a58f5632e);
+        
+    
+        var popup_d40c29c2f8f74fcdbc198bbe5a94b3f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_797d88c93764409a99da0c4dad0ff12a = $(`<div id="html_797d88c93764409a99da0c4dad0ff12a" style="width: 100.0%; height: 100.0%;">대한오토</div>`)[0];
+            popup_d40c29c2f8f74fcdbc198bbe5a94b3f1.setContent(html_797d88c93764409a99da0c4dad0ff12a);
+        
+
+        marker_ec9a481f9ec74992b622d23fc517adfa.bindPopup(popup_d40c29c2f8f74fcdbc198bbe5a94b3f1)
+        ;
+
+        
+    
+    
+            var marker_5d28d81c858e410f87e0109acae17fee = L.marker(
+                [35.1362328, 128.7079352],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_3a8e7cacb9514c7f9a370a698b0f1398 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5d28d81c858e410f87e0109acae17fee.setIcon(icon_3a8e7cacb9514c7f9a370a698b0f1398);
+        
+    
+        var popup_c11283e7f8ba48708c952b4074888731 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_33e806cffdb3451a979f38ba02af5a21 = $(`<div id="html_33e806cffdb3451a979f38ba02af5a21" style="width: 100.0%; height: 100.0%;">DI자동차정비</div>`)[0];
+            popup_c11283e7f8ba48708c952b4074888731.setContent(html_33e806cffdb3451a979f38ba02af5a21);
+        
+
+        marker_5d28d81c858e410f87e0109acae17fee.bindPopup(popup_c11283e7f8ba48708c952b4074888731)
+        ;
+
+        
+    
+    
+            var marker_4969ac3b5a4e47cbb0547f784032382d = L.marker(
+                [37.1581171, 127.048516],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_07c5eca30eae4ccb932e120cf6337660 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4969ac3b5a4e47cbb0547f784032382d.setIcon(icon_07c5eca30eae4ccb932e120cf6337660);
+        
+    
+        var popup_d222f8329bd9443f8c83ac4cd13f7add = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9bdf0d649c1b4b92b6873d22c5cbabe7 = $(`<div id="html_9bdf0d649c1b4b92b6873d22c5cbabe7" style="width: 100.0%; height: 100.0%;">경기카서비스</div>`)[0];
+            popup_d222f8329bd9443f8c83ac4cd13f7add.setContent(html_9bdf0d649c1b4b92b6873d22c5cbabe7);
+        
+
+        marker_4969ac3b5a4e47cbb0547f784032382d.bindPopup(popup_d222f8329bd9443f8c83ac4cd13f7add)
+        ;
+
+        
+    
+    
+            var marker_7f49ce88702046569b40af7929199cf9 = L.marker(
+                [35.2098354, 128.5734421],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_dde1c68ddf46457d9dad2131e9e67b4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7f49ce88702046569b40af7929199cf9.setIcon(icon_dde1c68ddf46457d9dad2131e9e67b4f);
+        
+    
+        var popup_0163a92a6b9347cabc2ae8740111ed5e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d19cfa608c7640dc972558f5c124bd3a = $(`<div id="html_d19cfa608c7640dc972558f5c124bd3a" style="width: 100.0%; height: 100.0%;">공임나라 창원중성점</div>`)[0];
+            popup_0163a92a6b9347cabc2ae8740111ed5e.setContent(html_d19cfa608c7640dc972558f5c124bd3a);
+        
+
+        marker_7f49ce88702046569b40af7929199cf9.bindPopup(popup_0163a92a6b9347cabc2ae8740111ed5e)
+        ;
+
+        
+    
+    
+            var marker_c29b796c87134d8e92a8fdcbdbac5a7b = L.marker(
+                [36.4398611, 127.4241744],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_37c1ee64ff36486596ad428062d7bff4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c29b796c87134d8e92a8fdcbdbac5a7b.setIcon(icon_37c1ee64ff36486596ad428062d7bff4);
+        
+    
+        var popup_bd64d0802d644a4ea428bd8cb384c1cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6838b25bcce64c0b9487a1ce0cccd41e = $(`<div id="html_6838b25bcce64c0b9487a1ce0cccd41e" style="width: 100.0%; height: 100.0%;">하이카프라자 대전모터스</div>`)[0];
+            popup_bd64d0802d644a4ea428bd8cb384c1cb.setContent(html_6838b25bcce64c0b9487a1ce0cccd41e);
+        
+
+        marker_c29b796c87134d8e92a8fdcbdbac5a7b.bindPopup(popup_bd64d0802d644a4ea428bd8cb384c1cb)
+        ;
+
+        
+    
+    
+            var marker_31daaaef1ff0471da16bc0d46958c2c4 = L.marker(
+                [36.3405178, 127.3225888],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_c88d55e121324b9eadeea5b9c236a8f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_31daaaef1ff0471da16bc0d46958c2c4.setIcon(icon_c88d55e121324b9eadeea5b9c236a8f8);
+        
+    
+        var popup_39eb2a098ce14cc8ad49d994482b2fc3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e7ea388e4f0458e89cbe153b8f38d28 = $(`<div id="html_8e7ea388e4f0458e89cbe153b8f38d28" style="width: 100.0%; height: 100.0%;">하이카프라자 복용점</div>`)[0];
+            popup_39eb2a098ce14cc8ad49d994482b2fc3.setContent(html_8e7ea388e4f0458e89cbe153b8f38d28);
+        
+
+        marker_31daaaef1ff0471da16bc0d46958c2c4.bindPopup(popup_39eb2a098ce14cc8ad49d994482b2fc3)
+        ;
+
+        
+    
+    
+            var marker_474e29639ca74a43944295b74f2970cd = L.marker(
+                [36.3553737, 127.3506994],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_7926db388178424cb734e408df427e9d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_474e29639ca74a43944295b74f2970cd.setIcon(icon_7926db388178424cb734e408df427e9d);
+        
+    
+        var popup_b57dd25dc90649d8a01bf925598febc0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54de575690ff482ba0a89736b6e35108 = $(`<div id="html_54de575690ff482ba0a89736b6e35108" style="width: 100.0%; height: 100.0%;">타이어 프리미엄아울렛</div>`)[0];
+            popup_b57dd25dc90649d8a01bf925598febc0.setContent(html_54de575690ff482ba0a89736b6e35108);
+        
+
+        marker_474e29639ca74a43944295b74f2970cd.bindPopup(popup_b57dd25dc90649d8a01bf925598febc0)
+        ;
+
+        
+    
+    
+            var marker_fd90de74101e495abc20f55149dfa8c4 = L.marker(
+                [36.330802, 127.4010493],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_9ac377e59e934e1a8de4f6926f6cd6c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fd90de74101e495abc20f55149dfa8c4.setIcon(icon_9ac377e59e934e1a8de4f6926f6cd6c6);
+        
+    
+        var popup_49f96df5770b485f922dc13b9be0f53a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a00649dab874676ac0c96ae0b4697bc = $(`<div id="html_6a00649dab874676ac0c96ae0b4697bc" style="width: 100.0%; height: 100.0%;">유승모터스</div>`)[0];
+            popup_49f96df5770b485f922dc13b9be0f53a.setContent(html_6a00649dab874676ac0c96ae0b4697bc);
+        
+
+        marker_fd90de74101e495abc20f55149dfa8c4.bindPopup(popup_49f96df5770b485f922dc13b9be0f53a)
+        ;
+
+        
+    
+    
+            var marker_af6dce4119bb49a2a1b8f93bb9e298c0 = L.marker(
+                [36.5346391, 127.2428689],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_f10fb125ae554e4c85e303148010433e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_af6dce4119bb49a2a1b8f93bb9e298c0.setIcon(icon_f10fb125ae554e4c85e303148010433e);
+        
+    
+        var popup_2e0bcad76d5e4f55a2da3d239a79d012 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e233ec9ff1644fce802cf4afb9691fd0 = $(`<div id="html_e233ec9ff1644fce802cf4afb9691fd0" style="width: 100.0%; height: 100.0%;">세종 WS&CAR</div>`)[0];
+            popup_2e0bcad76d5e4f55a2da3d239a79d012.setContent(html_e233ec9ff1644fce802cf4afb9691fd0);
+        
+
+        marker_af6dce4119bb49a2a1b8f93bb9e298c0.bindPopup(popup_2e0bcad76d5e4f55a2da3d239a79d012)
+        ;
+
+        
+    
+    
+            var marker_83cd983b6ff24b49ab0e33ea15b5d91f = L.marker(
+                [36.6333448, 127.4381966],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_adf38808b17c49ffb9b293e7ec4f3f42 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_83cd983b6ff24b49ab0e33ea15b5d91f.setIcon(icon_adf38808b17c49ffb9b293e7ec4f3f42);
+        
+    
+        var popup_c30e1ca551bb436c9b31571dba50241b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bbb28216968141fa8b1157fa23dc17b8 = $(`<div id="html_bbb28216968141fa8b1157fa23dc17b8" style="width: 100.0%; height: 100.0%;">타이어센터</div>`)[0];
+            popup_c30e1ca551bb436c9b31571dba50241b.setContent(html_bbb28216968141fa8b1157fa23dc17b8);
+        
+
+        marker_83cd983b6ff24b49ab0e33ea15b5d91f.bindPopup(popup_c30e1ca551bb436c9b31571dba50241b)
+        ;
+
+        
+    
+    
+            var marker_a8d27a4d1c6341eab3debf13b02bfcb1 = L.marker(
+                [36.66190230000001, 127.4889126],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_57a9b809bec54be0a4ef05ff4c5f1d01 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a8d27a4d1c6341eab3debf13b02bfcb1.setIcon(icon_57a9b809bec54be0a4ef05ff4c5f1d01);
+        
+    
+        var popup_43b62c4878924a86ad9a0d6ebd357a79 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4b4cd9f21504aaa93f922405c0da920 = $(`<div id="html_d4b4cd9f21504aaa93f922405c0da920" style="width: 100.0%; height: 100.0%;">경희카크리닉</div>`)[0];
+            popup_43b62c4878924a86ad9a0d6ebd357a79.setContent(html_d4b4cd9f21504aaa93f922405c0da920);
+        
+
+        marker_a8d27a4d1c6341eab3debf13b02bfcb1.bindPopup(popup_43b62c4878924a86ad9a0d6ebd357a79)
+        ;
+
+        
+    
+    
+            var marker_2f2a214104844e1eb2b8f0ffb9e992ca = L.marker(
+                [36.7755416, 127.0065813],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_05cc309065084acaafc056550108744d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2f2a214104844e1eb2b8f0ffb9e992ca.setIcon(icon_05cc309065084acaafc056550108744d);
+        
+    
+        var popup_963ef092aa0d4c24b1450ee1bc86c5bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c442df55c5ce4ac58faf9d9d7063ac67 = $(`<div id="html_c442df55c5ce4ac58faf9d9d7063ac67" style="width: 100.0%; height: 100.0%;">오토오아시스 용화점</div>`)[0];
+            popup_963ef092aa0d4c24b1450ee1bc86c5bc.setContent(html_c442df55c5ce4ac58faf9d9d7063ac67);
+        
+
+        marker_2f2a214104844e1eb2b8f0ffb9e992ca.bindPopup(popup_963ef092aa0d4c24b1450ee1bc86c5bc)
+        ;
+
+        
+    
+    
+            var marker_e8360561bfe044b09898448864ca86f0 = L.marker(
+                [36.8334929, 127.1320912],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_431d0834f3d1456f996a28ffb92722fa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e8360561bfe044b09898448864ca86f0.setIcon(icon_431d0834f3d1456f996a28ffb92722fa);
+        
+    
+        var popup_a15a3012dbf74cdabe938835476b11ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a0c973c57c44e07b51859e3f9b83408 = $(`<div id="html_4a0c973c57c44e07b51859e3f9b83408" style="width: 100.0%; height: 100.0%;">티스테이션 두정점</div>`)[0];
+            popup_a15a3012dbf74cdabe938835476b11ce.setContent(html_4a0c973c57c44e07b51859e3f9b83408);
+        
+
+        marker_e8360561bfe044b09898448864ca86f0.bindPopup(popup_a15a3012dbf74cdabe938835476b11ce)
+        ;
+
+        
+    
+    
+            var marker_e7b63ff454524056b7edf79f4a06cdcc = L.marker(
+                [37.5598975, 126.8098973],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_c30fc55d05c542098083737150ae834b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e7b63ff454524056b7edf79f4a06cdcc.setIcon(icon_c30fc55d05c542098083737150ae834b);
+        
+    
+        var popup_645f8148cfec4db794b940ed31361c58 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b9a7f21db1da418c92fdf0736e36efc0 = $(`<div id="html_b9a7f21db1da418c92fdf0736e36efc0" style="width: 100.0%; height: 100.0%;">뉴월드비전</div>`)[0];
+            popup_645f8148cfec4db794b940ed31361c58.setContent(html_b9a7f21db1da418c92fdf0736e36efc0);
+        
+
+        marker_e7b63ff454524056b7edf79f4a06cdcc.bindPopup(popup_645f8148cfec4db794b940ed31361c58)
+        ;
+
+        
+    
+    
+            var marker_701d937a8f5f4d439d09043ada5a104d = L.marker(
+                [35.1776543, 128.8059342],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_c1d921b99f2a468ab05919657ca83af7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_701d937a8f5f4d439d09043ada5a104d.setIcon(icon_c1d921b99f2a468ab05919657ca83af7);
+        
+    
+        var popup_86a9e08001924ea0aa9597c296e46b4a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27188bf2c35d4afab44ef5bd612d2891 = $(`<div id="html_27188bf2c35d4afab44ef5bd612d2891" style="width: 100.0%; height: 100.0%;">공임나라 김해장유점</div>`)[0];
+            popup_86a9e08001924ea0aa9597c296e46b4a.setContent(html_27188bf2c35d4afab44ef5bd612d2891);
+        
+
+        marker_701d937a8f5f4d439d09043ada5a104d.bindPopup(popup_86a9e08001924ea0aa9597c296e46b4a)
+        ;
+
+        
+    
+    
+            var marker_3655f34a02ee4c31bfc2def9d67dc908 = L.marker(
+                [35.1475064, 126.8719963],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_f576084dc39a4ed4ba97b9afccdd224a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3655f34a02ee4c31bfc2def9d67dc908.setIcon(icon_f576084dc39a4ed4ba97b9afccdd224a);
+        
+    
+        var popup_7a3c8373e0634ed78281458c00473847 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e4696fac5af4cd4920a3c53dcbdbded = $(`<div id="html_6e4696fac5af4cd4920a3c53dcbdbded" style="width: 100.0%; height: 100.0%;">카마스터서비스</div>`)[0];
+            popup_7a3c8373e0634ed78281458c00473847.setContent(html_6e4696fac5af4cd4920a3c53dcbdbded);
+        
+
+        marker_3655f34a02ee4c31bfc2def9d67dc908.bindPopup(popup_7a3c8373e0634ed78281458c00473847)
+        ;
+
+        
+    
+    
+            var marker_92838f4a90294d8bb00fb268636b9897 = L.marker(
+                [35.118949, 126.8980884],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_2861e23757be4fe5b85887fbd5d412b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_92838f4a90294d8bb00fb268636b9897.setIcon(icon_2861e23757be4fe5b85887fbd5d412b6);
+        
+    
+        var popup_60252ef403c74fe1b57212476fd6200b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c817a45ed9048ae9ffdabcb9f5e4e76 = $(`<div id="html_5c817a45ed9048ae9ffdabcb9f5e4e76" style="width: 100.0%; height: 100.0%;">애니카랜드 진월점</div>`)[0];
+            popup_60252ef403c74fe1b57212476fd6200b.setContent(html_5c817a45ed9048ae9ffdabcb9f5e4e76);
+        
+
+        marker_92838f4a90294d8bb00fb268636b9897.bindPopup(popup_60252ef403c74fe1b57212476fd6200b)
+        ;
+
+        
+    
+    
+            var marker_e1799dbd42e942508d6832881425b157 = L.marker(
+                [35.2172615, 126.8240967],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_042182bbde2143c8b80d78f81a6def73 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e1799dbd42e942508d6832881425b157.setIcon(icon_042182bbde2143c8b80d78f81a6def73);
+        
+    
+        var popup_a10e1acd5e784ed5ad09d61ec656b4ef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1299d5c2978c4a449cfc0280654bb4f3 = $(`<div id="html_1299d5c2978c4a449cfc0280654bb4f3" style="width: 100.0%; height: 100.0%;">타이어나라 본점</div>`)[0];
+            popup_a10e1acd5e784ed5ad09d61ec656b4ef.setContent(html_1299d5c2978c4a449cfc0280654bb4f3);
+        
+
+        marker_e1799dbd42e942508d6832881425b157.bindPopup(popup_a10e1acd5e784ed5ad09d61ec656b4ef)
+        ;
+
+        
+    
+    
+            var marker_8cd94c8122af4c1ba2ec49bc4fd01c32 = L.marker(
+                [35.1443379, 126.8043929],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_42fcaffadd0d4aa0a3d9b5c1b9350539 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8cd94c8122af4c1ba2ec49bc4fd01c32.setIcon(icon_42fcaffadd0d4aa0a3d9b5c1b9350539);
+        
+    
+        var popup_4b68bae9277741fa8d4bb7efd5e1f7cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d508359ab95b48cdbf0639f7c8d596c7 = $(`<div id="html_d508359ab95b48cdbf0639f7c8d596c7" style="width: 100.0%; height: 100.0%;">타이어프로 송정점</div>`)[0];
+            popup_4b68bae9277741fa8d4bb7efd5e1f7cb.setContent(html_d508359ab95b48cdbf0639f7c8d596c7);
+        
+
+        marker_8cd94c8122af4c1ba2ec49bc4fd01c32.bindPopup(popup_4b68bae9277741fa8d4bb7efd5e1f7cb)
+        ;
+
+        
+    
+    
+            var marker_a6d9439d99264fb7b34cc9ba5b896b1d = L.marker(
+                [35.208938, 126.8801573],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_9d642a8269834257aa89e70b691d089f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a6d9439d99264fb7b34cc9ba5b896b1d.setIcon(icon_9d642a8269834257aa89e70b691d089f);
+        
+    
+        var popup_b01768514efc44b6a0d979c4ac9392d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f831765fa59841e79a17d234000cedeb = $(`<div id="html_f831765fa59841e79a17d234000cedeb" style="width: 100.0%; height: 100.0%;">대성모터스손세차</div>`)[0];
+            popup_b01768514efc44b6a0d979c4ac9392d9.setContent(html_f831765fa59841e79a17d234000cedeb);
+        
+
+        marker_a6d9439d99264fb7b34cc9ba5b896b1d.bindPopup(popup_b01768514efc44b6a0d979c4ac9392d9)
+        ;
+
+        
+    
+    
+            var marker_056d2c8d39cb426390548f3b3497c9dc = L.marker(
+                [35.1820382, 126.9283761],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_3be076a8ed4d45a59f8103801791847a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_056d2c8d39cb426390548f3b3497c9dc.setIcon(icon_3be076a8ed4d45a59f8103801791847a);
+        
+    
+        var popup_e712378f04e64af3be9dd0ac3b699148 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2db17349d387435f94066f8e86efd3fd = $(`<div id="html_2db17349d387435f94066f8e86efd3fd" style="width: 100.0%; height: 100.0%;">오토오아시스 문흥점</div>`)[0];
+            popup_e712378f04e64af3be9dd0ac3b699148.setContent(html_2db17349d387435f94066f8e86efd3fd);
+        
+
+        marker_056d2c8d39cb426390548f3b3497c9dc.bindPopup(popup_e712378f04e64af3be9dd0ac3b699148)
+        ;
+
+        
+    
+    
+            var marker_c20e7d9bb02b41d89f9342e8e0d2b2f7 = L.marker(
+                [37.1159973, 127.1252638],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_c27457f37e6d4c9eb36498de5dead6b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c20e7d9bb02b41d89f9342e8e0d2b2f7.setIcon(icon_c27457f37e6d4c9eb36498de5dead6b9);
+        
+    
+        var popup_04f7ef7a5a574cd7bb84ac2a1384427a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94486b197bc34c9cb92389e5df9d618a = $(`<div id="html_94486b197bc34c9cb92389e5df9d618a" style="width: 100.0%; height: 100.0%;">넥센타이어 신동탄점</div>`)[0];
+            popup_04f7ef7a5a574cd7bb84ac2a1384427a.setContent(html_94486b197bc34c9cb92389e5df9d618a);
+        
+
+        marker_c20e7d9bb02b41d89f9342e8e0d2b2f7.bindPopup(popup_04f7ef7a5a574cd7bb84ac2a1384427a)
+        ;
+
+        
+    
+    
+            var marker_553a9cb1c78543749bb8d8dd0834ebed = L.marker(
+                [34.9462965, 127.5133639],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_41a15b1c7944485b9e161067bdc39b55 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_553a9cb1c78543749bb8d8dd0834ebed.setIcon(icon_41a15b1c7944485b9e161067bdc39b55);
+        
+    
+        var popup_f84dd38006eb4d52b50dd507d614f230 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db9a3fbc7233478e845471b9e5a517fb = $(`<div id="html_db9a3fbc7233478e845471b9e5a517fb" style="width: 100.0%; height: 100.0%;">베스트타이어</div>`)[0];
+            popup_f84dd38006eb4d52b50dd507d614f230.setContent(html_db9a3fbc7233478e845471b9e5a517fb);
+        
+
+        marker_553a9cb1c78543749bb8d8dd0834ebed.bindPopup(popup_f84dd38006eb4d52b50dd507d614f230)
+        ;
+
+        
+    
+    
+            var marker_f89cb871a9fa4256b55924374679b851 = L.marker(
+                [34.9405167, 127.7060264],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_3333613cc3284307a4a9851c813dd98d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f89cb871a9fa4256b55924374679b851.setIcon(icon_3333613cc3284307a4a9851c813dd98d);
+        
+    
+        var popup_a0028fcef083408cb8509a71ba7f760e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_80ca7c1e53b0418ab57078f84463dffc = $(`<div id="html_80ca7c1e53b0418ab57078f84463dffc" style="width: 100.0%; height: 100.0%;">백운1급자동차정비공업사</div>`)[0];
+            popup_a0028fcef083408cb8509a71ba7f760e.setContent(html_80ca7c1e53b0418ab57078f84463dffc);
+        
+
+        marker_f89cb871a9fa4256b55924374679b851.bindPopup(popup_a0028fcef083408cb8509a71ba7f760e)
+        ;
+
+        
+    
+    
+            var marker_b7d7857ae2674f9a8881e7e45fbd4e6c = L.marker(
+                [34.8813378, 128.6290693],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_ed61eeeaad1c49d1831b2a8ef3011576 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b7d7857ae2674f9a8881e7e45fbd4e6c.setIcon(icon_ed61eeeaad1c49d1831b2a8ef3011576);
+        
+    
+        var popup_59d508f169664aa39b1abd7e6bb6f580 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60d9ce895774483da1715eaecf4b83fe = $(`<div id="html_60d9ce895774483da1715eaecf4b83fe" style="width: 100.0%; height: 100.0%;">프로미카월드 거제고현점</div>`)[0];
+            popup_59d508f169664aa39b1abd7e6bb6f580.setContent(html_60d9ce895774483da1715eaecf4b83fe);
+        
+
+        marker_b7d7857ae2674f9a8881e7e45fbd4e6c.bindPopup(popup_59d508f169664aa39b1abd7e6bb6f580)
+        ;
+
+        
+    
+    
+            var marker_e42164e3d9064d558a12ef7f5635264d = L.marker(
+                [35.8383484, 127.1338431],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_9d9e8f2d39bc49c18bf82ec07ac373b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e42164e3d9064d558a12ef7f5635264d.setIcon(icon_9d9e8f2d39bc49c18bf82ec07ac373b2);
+        
+    
+        var popup_3ff300c2088b4d398050ea61266c0223 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_49f159638d0a44738f56d798b4cd3684 = $(`<div id="html_49f159638d0a44738f56d798b4cd3684" style="width: 100.0%; height: 100.0%;">보쉬카 금암점</div>`)[0];
+            popup_3ff300c2088b4d398050ea61266c0223.setContent(html_49f159638d0a44738f56d798b4cd3684);
+        
+
+        marker_e42164e3d9064d558a12ef7f5635264d.bindPopup(popup_3ff300c2088b4d398050ea61266c0223)
+        ;
+
+        
+    
+    
+            var marker_c6e0acf71b0d47f58435238ca6145526 = L.marker(
+                [35.8197252, 127.1219864],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_df541752d6e64b8792993247c76c5905 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c6e0acf71b0d47f58435238ca6145526.setIcon(icon_df541752d6e64b8792993247c76c5905);
+        
+    
+        var popup_d69ffaad5b6d4a279576c01a55203bc1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55feb7ad2c10484897681bd5fbc1a16c = $(`<div id="html_55feb7ad2c10484897681bd5fbc1a16c" style="width: 100.0%; height: 100.0%;">코리언모터스</div>`)[0];
+            popup_d69ffaad5b6d4a279576c01a55203bc1.setContent(html_55feb7ad2c10484897681bd5fbc1a16c);
+        
+
+        marker_c6e0acf71b0d47f58435238ca6145526.bindPopup(popup_d69ffaad5b6d4a279576c01a55203bc1)
+        ;
+
+        
+    
+    
+            var marker_e8608399dcb048218acd48c052069302 = L.marker(
+                [35.9570491, 126.9832349],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_7be2a8ceeaea4e2b9481aa6450de82e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e8608399dcb048218acd48c052069302.setIcon(icon_7be2a8ceeaea4e2b9481aa6450de82e5);
+        
+    
+        var popup_47146b4ff1924fdfa622e1e822cceb95 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77c8fd8994c84f298d1bea3d0aacc06b = $(`<div id="html_77c8fd8994c84f298d1bea3d0aacc06b" style="width: 100.0%; height: 100.0%;">보쉬스마일자동차마을</div>`)[0];
+            popup_47146b4ff1924fdfa622e1e822cceb95.setContent(html_77c8fd8994c84f298d1bea3d0aacc06b);
+        
+
+        marker_e8608399dcb048218acd48c052069302.bindPopup(popup_47146b4ff1924fdfa622e1e822cceb95)
+        ;
+
+        
+    
+    
+            var marker_21933c2560dd40af86b32281cb1c822b = L.marker(
+                [35.957534, 126.7103972],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_38f650eb780d439ab900b67c0519e4a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_21933c2560dd40af86b32281cb1c822b.setIcon(icon_38f650eb780d439ab900b67c0519e4a5);
+        
+    
+        var popup_d229c77527c94f7badf0153ffe4b0d7b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_826ab10550674193bbd0693e9f3da4a3 = $(`<div id="html_826ab10550674193bbd0693e9f3da4a3" style="width: 100.0%; height: 100.0%;">엔진마을 군산점</div>`)[0];
+            popup_d229c77527c94f7badf0153ffe4b0d7b.setContent(html_826ab10550674193bbd0693e9f3da4a3);
+        
+
+        marker_21933c2560dd40af86b32281cb1c822b.bindPopup(popup_d229c77527c94f7badf0153ffe4b0d7b)
+        ;
+
+        
+    
+    
+            var marker_87c0b9dcc21348cbab0bd2d9a9038a5d = L.marker(
+                [37.5334788, 126.7228843],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_c3533b5a52bf4566b0eadf603d5fae4b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_87c0b9dcc21348cbab0bd2d9a9038a5d.setIcon(icon_c3533b5a52bf4566b0eadf603d5fae4b);
+        
+    
+        var popup_b450de22bfc14b0baa85add60ec48ecc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5810b28fba74a3c93eb96da0c5c0f22 = $(`<div id="html_e5810b28fba74a3c93eb96da0c5c0f22" style="width: 100.0%; height: 100.0%;">정성카공업사</div>`)[0];
+            popup_b450de22bfc14b0baa85add60ec48ecc.setContent(html_e5810b28fba74a3c93eb96da0c5c0f22);
+        
+
+        marker_87c0b9dcc21348cbab0bd2d9a9038a5d.bindPopup(popup_b450de22bfc14b0baa85add60ec48ecc)
+        ;
+
+        
+    
+    
+            var marker_ffba647af43543689664d461fd8f59c3 = L.marker(
+                [37.645806, 126.8547826],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_28cb994ec6a0459ba9b2ebd1cfe94261 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ffba647af43543689664d461fd8f59c3.setIcon(icon_28cb994ec6a0459ba9b2ebd1cfe94261);
+        
+    
+        var popup_6b272766a5b640989ff307cf59647e27 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f7ade79a958492d870af767621a9a62 = $(`<div id="html_9f7ade79a958492d870af767621a9a62" style="width: 100.0%; height: 100.0%;">세이프모터스 서울고양점</div>`)[0];
+            popup_6b272766a5b640989ff307cf59647e27.setContent(html_9f7ade79a958492d870af767621a9a62);
+        
+
+        marker_ffba647af43543689664d461fd8f59c3.bindPopup(popup_6b272766a5b640989ff307cf59647e27)
+        ;
+
+        
+    
+    
+            var marker_35eab3809c6c44b4932c3a1d9436c115 = L.marker(
+                [37.836749, 126.8210642],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_9ff7de17995144438c94d19654bb64ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_35eab3809c6c44b4932c3a1d9436c115.setIcon(icon_9ff7de17995144438c94d19654bb64ee);
+        
+    
+        var popup_4ec3b1910b624a1f8df089df1ffeb9cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8278f8500b24df08bb247f4eba6c300 = $(`<div id="html_c8278f8500b24df08bb247f4eba6c300" style="width: 100.0%; height: 100.0%;">공임나라 파주 주내점</div>`)[0];
+            popup_4ec3b1910b624a1f8df089df1ffeb9cb.setContent(html_c8278f8500b24df08bb247f4eba6c300);
+        
+
+        marker_35eab3809c6c44b4932c3a1d9436c115.bindPopup(popup_4ec3b1910b624a1f8df089df1ffeb9cb)
+        ;
+
+        
+    
+    
+            var marker_8463a1c4b8c8455ea8a189b9b77d8494 = L.marker(
+                [35.1978132, 128.0755371],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_eacf1c47789a4df592785fc9d219ebc1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8463a1c4b8c8455ea8a189b9b77d8494.setIcon(icon_eacf1c47789a4df592785fc9d219ebc1);
+        
+    
+        var popup_076ca7548a394092816c52b0c1a2f38b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4683ee7aed9d428b98cb1b145798c91c = $(`<div id="html_4683ee7aed9d428b98cb1b145798c91c" style="width: 100.0%; height: 100.0%;">제이제이모터스</div>`)[0];
+            popup_076ca7548a394092816c52b0c1a2f38b.setContent(html_4683ee7aed9d428b98cb1b145798c91c);
+        
+
+        marker_8463a1c4b8c8455ea8a189b9b77d8494.bindPopup(popup_076ca7548a394092816c52b0c1a2f38b)
+        ;
+
+        
+    
+    
+            var marker_6d0a168f754c407797dceef3208b73f7 = L.marker(
+                [37.4496305, 127.1217844],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_3591765ff7314201a955ca1c80a48e01 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6d0a168f754c407797dceef3208b73f7.setIcon(icon_3591765ff7314201a955ca1c80a48e01);
+        
+    
+        var popup_ee3c1926dac148759da76a1c6abbe6fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eba3729942c643c8b1a100242372ee32 = $(`<div id="html_eba3729942c643c8b1a100242372ee32" style="width: 100.0%; height: 100.0%;">피카소(자동차수리센터)</div>`)[0];
+            popup_ee3c1926dac148759da76a1c6abbe6fc.setContent(html_eba3729942c643c8b1a100242372ee32);
+        
+
+        marker_6d0a168f754c407797dceef3208b73f7.bindPopup(popup_ee3c1926dac148759da76a1c6abbe6fc)
+        ;
+
+        
+    
+    
+            var marker_16d0fa04ac9c425e835e30766a507136 = L.marker(
+                [37.0555431, 127.0653677],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_c3d8f98d7fbb4615b8907759bf2f4751 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_16d0fa04ac9c425e835e30766a507136.setIcon(icon_c3d8f98d7fbb4615b8907759bf2f4751);
+        
+    
+        var popup_4c36dba9c968445591182724aa1727b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0fd05cf6ed854f859e7e82cd67475999 = $(`<div id="html_0fd05cf6ed854f859e7e82cd67475999" style="width: 100.0%; height: 100.0%;">브로모터스</div>`)[0];
+            popup_4c36dba9c968445591182724aa1727b7.setContent(html_0fd05cf6ed854f859e7e82cd67475999);
+        
+
+        marker_16d0fa04ac9c425e835e30766a507136.bindPopup(popup_4c36dba9c968445591182724aa1727b7)
+        ;
+
+        
+    
+    
+            var marker_e36b6ad5592a4fb3a66f54b75f4fa6f9 = L.marker(
+                [36.9738772, 126.9229795],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_2e8236e548494900a5b5c82b87dbe073 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e36b6ad5592a4fb3a66f54b75f4fa6f9.setIcon(icon_2e8236e548494900a5b5c82b87dbe073);
+        
+    
+        var popup_6962a037b1cc4a34bd966bad9c6aef83 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a13312348ed94046b6bbf0d667ac0b1a = $(`<div id="html_a13312348ed94046b6bbf0d667ac0b1a" style="width: 100.0%; height: 100.0%;">공임나라평택안중점</div>`)[0];
+            popup_6962a037b1cc4a34bd966bad9c6aef83.setContent(html_a13312348ed94046b6bbf0d667ac0b1a);
+        
+
+        marker_e36b6ad5592a4fb3a66f54b75f4fa6f9.bindPopup(popup_6962a037b1cc4a34bd966bad9c6aef83)
+        ;
+
+        
+    
+    
+            var marker_312915bd44904b6a86c63f6a1bd06164 = L.marker(
+                [37.3173486, 127.0657805],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_ec1cc84396a348388412f65d74b6e26f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_312915bd44904b6a86c63f6a1bd06164.setIcon(icon_ec1cc84396a348388412f65d74b6e26f);
+        
+    
+        var popup_4e779fffed2848d78083255473a2810f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c853f2234754974b46e363b43ba6d7b = $(`<div id="html_2c853f2234754974b46e363b43ba6d7b" style="width: 100.0%; height: 100.0%;">CKS</div>`)[0];
+            popup_4e779fffed2848d78083255473a2810f.setContent(html_2c853f2234754974b46e363b43ba6d7b);
+        
+
+        marker_312915bd44904b6a86c63f6a1bd06164.bindPopup(popup_4e779fffed2848d78083255473a2810f)
+        ;
+
+        
+    
+    
+            var marker_1f7913a5c4ab4d2c9613830717ba94fa = L.marker(
+                [37.4038389, 126.9576168],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_52309d1afa4e467bb9c26aca4471e814 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1f7913a5c4ab4d2c9613830717ba94fa.setIcon(icon_52309d1afa4e467bb9c26aca4471e814);
+        
+    
+        var popup_a1edc2196b9d4fe2823216c1d0526148 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_108d300609b542ba8ab4af82ae503bb7 = $(`<div id="html_108d300609b542ba8ab4af82ae503bb7" style="width: 100.0%; height: 100.0%;">동양모터스</div>`)[0];
+            popup_a1edc2196b9d4fe2823216c1d0526148.setContent(html_108d300609b542ba8ab4af82ae503bb7);
+        
+
+        marker_1f7913a5c4ab4d2c9613830717ba94fa.bindPopup(popup_a1edc2196b9d4fe2823216c1d0526148)
+        ;
+
+        
+    
+    
+            var marker_b383c9cc2e5941ad9e5c619b5bc9dc5a = L.marker(
+                [37.2041697, 126.833119],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_07c4ce0c7a1846b7b63d3bfda935221a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b383c9cc2e5941ad9e5c619b5bc9dc5a.setIcon(icon_07c4ce0c7a1846b7b63d3bfda935221a);
+        
+    
+        var popup_b4275895a6464aad85294c22dc95e897 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3b23fc3e686a4a56a24727e0ae44b696 = $(`<div id="html_3b23fc3e686a4a56a24727e0ae44b696" style="width: 100.0%; height: 100.0%;">바름정비 남양점</div>`)[0];
+            popup_b4275895a6464aad85294c22dc95e897.setContent(html_3b23fc3e686a4a56a24727e0ae44b696);
+        
+
+        marker_b383c9cc2e5941ad9e5c619b5bc9dc5a.bindPopup(popup_b4275895a6464aad85294c22dc95e897)
+        ;
+
+        
+    
+    
+            var marker_7a00c584df0c4f999177c6de2de758e8 = L.marker(
+                [37.2694765, 127.0828737],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_dbca05180e7e4334ab58d0c264cb766d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7a00c584df0c4f999177c6de2de758e8.setIcon(icon_dbca05180e7e4334ab58d0c264cb766d);
+        
+    
+        var popup_83f5fadd19594b6889baff130455451c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_98f542e163c640d6bf9dc13b46351329 = $(`<div id="html_98f542e163c640d6bf9dc13b46351329" style="width: 100.0%; height: 100.0%;">오토오아시스 흥덕광교점</div>`)[0];
+            popup_83f5fadd19594b6889baff130455451c.setContent(html_98f542e163c640d6bf9dc13b46351329);
+        
+
+        marker_7a00c584df0c4f999177c6de2de758e8.bindPopup(popup_83f5fadd19594b6889baff130455451c)
+        ;
+
+        
+    
+    
+            var marker_d6326f6a7e0e4ff9b89b86b80ec9f5b2 = L.marker(
+                [35.8124858, 128.7970371],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_aa11613198b9440990e7994f941ef34d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d6326f6a7e0e4ff9b89b86b80ec9f5b2.setIcon(icon_aa11613198b9440990e7994f941ef34d);
+        
+    
+        var popup_ea9979de65a5484d859e0be594ece996 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_09401eaa4bc64227a4ece8e063f15ab8 = $(`<div id="html_09401eaa4bc64227a4ece8e063f15ab8" style="width: 100.0%; height: 100.0%;">JB모터스</div>`)[0];
+            popup_ea9979de65a5484d859e0be594ece996.setContent(html_09401eaa4bc64227a4ece8e063f15ab8);
+        
+
+        marker_d6326f6a7e0e4ff9b89b86b80ec9f5b2.bindPopup(popup_ea9979de65a5484d859e0be594ece996)
+        ;
+
+        
+    
+    
+            var marker_96b3ec2e0e2c4d97a465b6e0d99d30e5 = L.marker(
+                [35.8166436, 128.7389123],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_adaa99108fca4857afd3f019d1eff4f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_96b3ec2e0e2c4d97a465b6e0d99d30e5.setIcon(icon_adaa99108fca4857afd3f019d1eff4f6);
+        
+    
+        var popup_a8db535e3932450da91a91a295df3077 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eec55e6913214d129d5b20c74117191d = $(`<div id="html_eec55e6913214d129d5b20c74117191d" style="width: 100.0%; height: 100.0%;">머쉰JR</div>`)[0];
+            popup_a8db535e3932450da91a91a295df3077.setContent(html_eec55e6913214d129d5b20c74117191d);
+        
+
+        marker_96b3ec2e0e2c4d97a465b6e0d99d30e5.bindPopup(popup_a8db535e3932450da91a91a295df3077)
+        ;
+
+        
+    
+    
+            var marker_0e7b5961572d47bc8b7439dccd43914a = L.marker(
+                [36.162626, 128.3519652],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_7ebdf839e3424ab6a22bec90f4477b60 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0e7b5961572d47bc8b7439dccd43914a.setIcon(icon_7ebdf839e3424ab6a22bec90f4477b60);
+        
+    
+        var popup_2b96d7b6699d427192b06afe36f2ac7e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21db27edf02c44b58558a568ceeffbc6 = $(`<div id="html_21db27edf02c44b58558a568ceeffbc6" style="width: 100.0%; height: 100.0%;">sj모터스</div>`)[0];
+            popup_2b96d7b6699d427192b06afe36f2ac7e.setContent(html_21db27edf02c44b58558a568ceeffbc6);
+        
+
+        marker_0e7b5961572d47bc8b7439dccd43914a.bindPopup(popup_2b96d7b6699d427192b06afe36f2ac7e)
+        ;
+
+        
+    
+    
+            var marker_8e7ef3869dc44a69963a3910dc667560 = L.marker(
+                [36.0950479, 128.4327769],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_a8be81ecd96f4d6fbc939615c896d94a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8e7ef3869dc44a69963a3910dc667560.setIcon(icon_a8be81ecd96f4d6fbc939615c896d94a);
+        
+    
+        var popup_0741b99a18cf4b0490ce5067ce77eafb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2af55848f82d4d388b027e9b53a69da5 = $(`<div id="html_2af55848f82d4d388b027e9b53a69da5" style="width: 100.0%; height: 100.0%;">한국타이어 마스타자동차정비</div>`)[0];
+            popup_0741b99a18cf4b0490ce5067ce77eafb.setContent(html_2af55848f82d4d388b027e9b53a69da5);
+        
+
+        marker_8e7ef3869dc44a69963a3910dc667560.bindPopup(popup_0741b99a18cf4b0490ce5067ce77eafb)
+        ;
+
+        
+    
+    
+            var marker_4668a74859c64a56a47bed5c99ac2fa6 = L.marker(
+                [36.1242102, 128.0882161],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_6980b0fd4d3f48a2a8fa22ae5597a6a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4668a74859c64a56a47bed5c99ac2fa6.setIcon(icon_6980b0fd4d3f48a2a8fa22ae5597a6a1);
+        
+    
+        var popup_54ff3609f7294c2b83ede4f8e5e9421f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fada3729755640b687ff165780149dab = $(`<div id="html_fada3729755640b687ff165780149dab" style="width: 100.0%; height: 100.0%;">스피드메이트 김천부곡점</div>`)[0];
+            popup_54ff3609f7294c2b83ede4f8e5e9421f.setContent(html_fada3729755640b687ff165780149dab);
+        
+
+        marker_4668a74859c64a56a47bed5c99ac2fa6.bindPopup(popup_54ff3609f7294c2b83ede4f8e5e9421f)
+        ;
+
+        
+    
+    
+            var marker_be2d5648bdc44f9585a099cf796e252c = L.marker(
+                [36.5597041, 128.7026987],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_250c6a246ad142798f233b231db03610 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_be2d5648bdc44f9585a099cf796e252c.setIcon(icon_250c6a246ad142798f233b231db03610);
+        
+    
+        var popup_f18bdb126367476cb62bd1d3f61900a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1576d9ef02804e40ac1288fd0e60bc3d = $(`<div id="html_1576d9ef02804e40ac1288fd0e60bc3d" style="width: 100.0%; height: 100.0%;">제이모터스</div>`)[0];
+            popup_f18bdb126367476cb62bd1d3f61900a7.setContent(html_1576d9ef02804e40ac1288fd0e60bc3d);
+        
+
+        marker_be2d5648bdc44f9585a099cf796e252c.bindPopup(popup_f18bdb126367476cb62bd1d3f61900a7)
+        ;
+
+        
+    
+    
+            var marker_97a213e0be764e2f8c800dee9046fc2a = L.marker(
+                [35.8516451, 129.2071607],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_8e16f20349c04e0b85914a8b9dd710e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_97a213e0be764e2f8c800dee9046fc2a.setIcon(icon_8e16f20349c04e0b85914a8b9dd710e1);
+        
+    
+        var popup_3b84603c9ae74fb5a4ab7b87d1a943da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7fe3d11c97a54c82a65c53330d438ea7 = $(`<div id="html_7fe3d11c97a54c82a65c53330d438ea7" style="width: 100.0%; height: 100.0%;">애니카랜드 성건점</div>`)[0];
+            popup_3b84603c9ae74fb5a4ab7b87d1a943da.setContent(html_7fe3d11c97a54c82a65c53330d438ea7);
+        
+
+        marker_97a213e0be764e2f8c800dee9046fc2a.bindPopup(popup_3b84603c9ae74fb5a4ab7b87d1a943da)
+        ;
+
+        
+    
+    
+            var marker_3af797cee9da454993e9bce7bd367a49 = L.marker(
+                [36.0851405, 129.383071],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_dc7e179db0434b9cb5d5a0ea1438f1f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3af797cee9da454993e9bce7bd367a49.setIcon(icon_dc7e179db0434b9cb5d5a0ea1438f1f0);
+        
+    
+        var popup_d6804b6d93ce4363906d81dc9418ee5c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_33313eb56ea44333916c3429269274e5 = $(`<div id="html_33313eb56ea44333916c3429269274e5" style="width: 100.0%; height: 100.0%;">타이어대장</div>`)[0];
+            popup_d6804b6d93ce4363906d81dc9418ee5c.setContent(html_33313eb56ea44333916c3429269274e5);
+        
+
+        marker_3af797cee9da454993e9bce7bd367a49.bindPopup(popup_d6804b6d93ce4363906d81dc9418ee5c)
+        ;
+
+        
+    
+    
+            var marker_e516f241f221488fbc28d7e5007a6bb8 = L.marker(
+                [36.0194952, 129.354903],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_3aac53d1098c4b0484de57be610ec8d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e516f241f221488fbc28d7e5007a6bb8.setIcon(icon_3aac53d1098c4b0484de57be610ec8d4);
+        
+    
+        var popup_a0c2f80608f94359a135083a30950d53 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e9ef23d096bf44c4a31bd0cabe70b810 = $(`<div id="html_e9ef23d096bf44c4a31bd0cabe70b810" style="width: 100.0%; height: 100.0%;">타이어프로 포항이동점</div>`)[0];
+            popup_a0c2f80608f94359a135083a30950d53.setContent(html_e9ef23d096bf44c4a31bd0cabe70b810);
+        
+
+        marker_e516f241f221488fbc28d7e5007a6bb8.bindPopup(popup_a0c2f80608f94359a135083a30950d53)
+        ;
+
+        
+    
+    
+            var marker_1026d215edc8472d94c7563db684c688 = L.marker(
+                [35.9586967, 129.4064827],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_329f1e6d1a8747e0b5486d11bd9c39ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1026d215edc8472d94c7563db684c688.setIcon(icon_329f1e6d1a8747e0b5486d11bd9c39ec);
+        
+    
+        var popup_922f81699acd4b6daf59f9266c25a7e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c47c58507e1e46d8be32b61622891aeb = $(`<div id="html_c47c58507e1e46d8be32b61622891aeb" style="width: 100.0%; height: 100.0%;">YB모터스 포항점</div>`)[0];
+            popup_922f81699acd4b6daf59f9266c25a7e1.setContent(html_c47c58507e1e46d8be32b61622891aeb);
+        
+
+        marker_1026d215edc8472d94c7563db684c688.bindPopup(popup_922f81699acd4b6daf59f9266c25a7e1)
+        ;
+
+        
+    
+    
+            var marker_dca8d9469d364a9b98a29c7e9e322d4b = L.marker(
+                [35.8899674, 128.5746778],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_b64157894f234fe783707b4512cc3358 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dca8d9469d364a9b98a29c7e9e322d4b.setIcon(icon_b64157894f234fe783707b4512cc3358);
+        
+    
+        var popup_5df50c76ee3a4ab78e2a2a8651bb0e80 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_931a0ab05a3a4aa0ad8ac0448b1031a4 = $(`<div id="html_931a0ab05a3a4aa0ad8ac0448b1031a4" style="width: 100.0%; height: 100.0%;">카리즈마타이어</div>`)[0];
+            popup_5df50c76ee3a4ab78e2a2a8651bb0e80.setContent(html_931a0ab05a3a4aa0ad8ac0448b1031a4);
+        
+
+        marker_dca8d9469d364a9b98a29c7e9e322d4b.bindPopup(popup_5df50c76ee3a4ab78e2a2a8651bb0e80)
+        ;
+
+        
+    
+    
+            var marker_dc682752aaeb4a34979365987f98f36a = L.marker(
+                [35.8734054, 128.4682627],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_3b0f91d7a7fb4150bbadd8fa40bb0203 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dc682752aaeb4a34979365987f98f36a.setIcon(icon_3b0f91d7a7fb4150bbadd8fa40bb0203);
+        
+    
+        var popup_42b867c9a7674b0991b88f3f3d0253b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ffd6086635d24f9fa9a14380f39ac72b = $(`<div id="html_ffd6086635d24f9fa9a14380f39ac72b" style="width: 100.0%; height: 100.0%;">제이비모터스 세천점</div>`)[0];
+            popup_42b867c9a7674b0991b88f3f3d0253b7.setContent(html_ffd6086635d24f9fa9a14380f39ac72b);
+        
+
+        marker_dc682752aaeb4a34979365987f98f36a.bindPopup(popup_42b867c9a7674b0991b88f3f3d0253b7)
+        ;
+
+        
+    
+    
+            var marker_25ea85bb992f4955b7f97f945dc2fa9e = L.marker(
+                [35.6939375, 128.4734375],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_93534842a5d6475ab5cd98de39c664c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_25ea85bb992f4955b7f97f945dc2fa9e.setIcon(icon_93534842a5d6475ab5cd98de39c664c6);
+        
+    
+        var popup_7bd9f9abde2a45558640c3379c518ab6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_967d02cf91ad410694f84af1b61532f3 = $(`<div id="html_967d02cf91ad410694f84af1b61532f3" style="width: 100.0%; height: 100.0%;">샵플러스원자동차정비</div>`)[0];
+            popup_7bd9f9abde2a45558640c3379c518ab6.setContent(html_967d02cf91ad410694f84af1b61532f3);
+        
+
+        marker_25ea85bb992f4955b7f97f945dc2fa9e.bindPopup(popup_7bd9f9abde2a45558640c3379c518ab6)
+        ;
+
+        
+    
+    
+            var marker_3c6ab2969887481d9bba5e59b6b73750 = L.marker(
+                [35.8008906, 128.4915534],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_8059ceee78224abf89e59ca306df3b7e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3c6ab2969887481d9bba5e59b6b73750.setIcon(icon_8059ceee78224abf89e59ca306df3b7e);
+        
+    
+        var popup_08586d250f1241718600a1a324c16c28 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a9752bcc99c44e595f22c2492d32db2 = $(`<div id="html_9a9752bcc99c44e595f22c2492d32db2" style="width: 100.0%; height: 100.0%;">애니카랜드 화원점</div>`)[0];
+            popup_08586d250f1241718600a1a324c16c28.setContent(html_9a9752bcc99c44e595f22c2492d32db2);
+        
+
+        marker_3c6ab2969887481d9bba5e59b6b73750.bindPopup(popup_08586d250f1241718600a1a324c16c28)
+        ;
+
+        
+    
+    
+            var marker_10c01e1600b44e52a02071a348836904 = L.marker(
+                [35.8329454, 128.5531688],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_32e38b62e6644dd6810adb3c84ce5d8b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_10c01e1600b44e52a02071a348836904.setIcon(icon_32e38b62e6644dd6810adb3c84ce5d8b);
+        
+    
+        var popup_74a20fc6193f40fa872921658743c862 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ec5a0fba68f4030960191b17c17ede9 = $(`<div id="html_1ec5a0fba68f4030960191b17c17ede9" style="width: 100.0%; height: 100.0%;">뉴대구 모터스</div>`)[0];
+            popup_74a20fc6193f40fa872921658743c862.setContent(html_1ec5a0fba68f4030960191b17c17ede9);
+        
+
+        marker_10c01e1600b44e52a02071a348836904.bindPopup(popup_74a20fc6193f40fa872921658743c862)
+        ;
+
+        
+    
+    
+            var marker_3d589b137f4f4800bdb3793f5fce7c5b = L.marker(
+                [35.8255216, 128.6102538],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_4335858ea75d4de2abaedf4ff324f0a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3d589b137f4f4800bdb3793f5fce7c5b.setIcon(icon_4335858ea75d4de2abaedf4ff324f0a9);
+        
+    
+        var popup_000a2bbe73104a28bd8148a46c3787c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba4f0094117d4ee48614aa69f11c552e = $(`<div id="html_ba4f0094117d4ee48614aa69f11c552e" style="width: 100.0%; height: 100.0%;">썬모터스</div>`)[0];
+            popup_000a2bbe73104a28bd8148a46c3787c7.setContent(html_ba4f0094117d4ee48614aa69f11c552e);
+        
+
+        marker_3d589b137f4f4800bdb3793f5fce7c5b.bindPopup(popup_000a2bbe73104a28bd8148a46c3787c7)
+        ;
+
+        
+    
+    
+            var marker_d3fc93564240406d9cccb2d07e15b2fc = L.marker(
+                [35.8749405, 128.6430026],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_e8543f6729b147988622691ef373f1ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d3fc93564240406d9cccb2d07e15b2fc.setIcon(icon_e8543f6729b147988622691ef373f1ca);
+        
+    
+        var popup_0dafdff43a844ac5ac2fd73bd75e4123 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d6395cfc16fa410e9256a3f8cd8d0e29 = $(`<div id="html_d6395cfc16fa410e9256a3f8cd8d0e29" style="width: 100.0%; height: 100.0%;">피트인모터스</div>`)[0];
+            popup_0dafdff43a844ac5ac2fd73bd75e4123.setContent(html_d6395cfc16fa410e9256a3f8cd8d0e29);
+        
+
+        marker_d3fc93564240406d9cccb2d07e15b2fc.bindPopup(popup_0dafdff43a844ac5ac2fd73bd75e4123)
+        ;
+
+        
+    
+    
+            var marker_29088462fd3a4d66a68eeedb2ae6967d = L.marker(
+                [37.49962, 127.1021402],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_7f816f5ad310401d9d97ecf77e54d00c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_29088462fd3a4d66a68eeedb2ae6967d.setIcon(icon_7f816f5ad310401d9d97ecf77e54d00c);
+        
+    
+        var popup_befb8bf5364e499caa2cca9f940ef79c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_37dd72454c1f4a68aafaefcb9a68bf61 = $(`<div id="html_37dd72454c1f4a68aafaefcb9a68bf61" style="width: 100.0%; height: 100.0%;">T스테이션 송파배명점</div>`)[0];
+            popup_befb8bf5364e499caa2cca9f940ef79c.setContent(html_37dd72454c1f4a68aafaefcb9a68bf61);
+        
+
+        marker_29088462fd3a4d66a68eeedb2ae6967d.bindPopup(popup_befb8bf5364e499caa2cca9f940ef79c)
+        ;
+
+        
+    
+    
+            var marker_44187a2f632246a4a077bfd4ae2eb0eb = L.marker(
+                [37.2166294, 127.0569506],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_47e69a3a85cc48a98a98dfdb76b0920d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_44187a2f632246a4a077bfd4ae2eb0eb.setIcon(icon_47e69a3a85cc48a98a98dfdb76b0920d);
+        
+    
+        var popup_7752b6625d23461aa84e775b350461ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e4da9c1be234ee79f2c2feb31c45bd1 = $(`<div id="html_2e4da9c1be234ee79f2c2feb31c45bd1" style="width: 100.0%; height: 100.0%;">명석카센타</div>`)[0];
+            popup_7752b6625d23461aa84e775b350461ca.setContent(html_2e4da9c1be234ee79f2c2feb31c45bd1);
+        
+
+        marker_44187a2f632246a4a077bfd4ae2eb0eb.bindPopup(popup_7752b6625d23461aa84e775b350461ca)
+        ;
+
+        
+    
+    
+            var marker_146aa22a206f403f845db04353460e16 = L.marker(
+                [37.3615267, 126.8747075],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_6d5f32cf9c4c4a369b18957b8ad39ed4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_146aa22a206f403f845db04353460e16.setIcon(icon_6d5f32cf9c4c4a369b18957b8ad39ed4);
+        
+    
+        var popup_10f2c12ed9d44bdd80adb20a72397b4b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_960a8d701028407797a4d14e5f8683e5 = $(`<div id="html_960a8d701028407797a4d14e5f8683e5" style="width: 100.0%; height: 100.0%;">세이프모터스 시흥안산점</div>`)[0];
+            popup_10f2c12ed9d44bdd80adb20a72397b4b.setContent(html_960a8d701028407797a4d14e5f8683e5);
+        
+
+        marker_146aa22a206f403f845db04353460e16.bindPopup(popup_10f2c12ed9d44bdd80adb20a72397b4b)
+        ;
+
+        
+    
+    
+            var marker_081cd1897211486cb9ac561cfe44115f = L.marker(
+                [37.5143525, 126.649331],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_55a5d44bc9364375a0d06979a7833fd2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_081cd1897211486cb9ac561cfe44115f.setIcon(icon_55a5d44bc9364375a0d06979a7833fd2);
+        
+    
+        var popup_e9b0ee2be40642cb9ec61f1248b6e0b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2319a4bb8ace49b89becdac5702f3f3c = $(`<div id="html_2319a4bb8ace49b89becdac5702f3f3c" style="width: 100.0%; height: 100.0%;">타이어프로 청라점</div>`)[0];
+            popup_e9b0ee2be40642cb9ec61f1248b6e0b7.setContent(html_2319a4bb8ace49b89becdac5702f3f3c);
+        
+
+        marker_081cd1897211486cb9ac561cfe44115f.bindPopup(popup_e9b0ee2be40642cb9ec61f1248b6e0b7)
+        ;
+
+        
+    
+    
+            var marker_6d2c15513aae4788bfd9c2fc1e29e39d = L.marker(
+                [37.5928368, 126.9433435],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_0b2bd9c089a54a35889378e43c3f2f0b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6d2c15513aae4788bfd9c2fc1e29e39d.setIcon(icon_0b2bd9c089a54a35889378e43c3f2f0b);
+        
+    
+        var popup_7f3b4059e1c74456bb3d60b6df6cbda5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a3928fb928f476ea7729cbdfb19284b = $(`<div id="html_1a3928fb928f476ea7729cbdfb19284b" style="width: 100.0%; height: 100.0%;">카젠홍은점</div>`)[0];
+            popup_7f3b4059e1c74456bb3d60b6df6cbda5.setContent(html_1a3928fb928f476ea7729cbdfb19284b);
+        
+
+        marker_6d2c15513aae4788bfd9c2fc1e29e39d.bindPopup(popup_7f3b4059e1c74456bb3d60b6df6cbda5)
+        ;
+
+        
+    
+    
+            var marker_3cd6f2c57f474651bcdb9257e7f7f8cd = L.marker(
+                [35.0898238, 128.0975452],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_26213d94a705434abd25a1c731b6c50a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3cd6f2c57f474651bcdb9257e7f7f8cd.setIcon(icon_26213d94a705434abd25a1c731b6c50a);
+        
+    
+        var popup_b4a859cbc6674df48c4cb78510692b5a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_338d2dc900e04e27a67df96a9014e0b4 = $(`<div id="html_338d2dc900e04e27a67df96a9014e0b4" style="width: 100.0%; height: 100.0%;">조성규자동차병원</div>`)[0];
+            popup_b4a859cbc6674df48c4cb78510692b5a.setContent(html_338d2dc900e04e27a67df96a9014e0b4);
+        
+
+        marker_3cd6f2c57f474651bcdb9257e7f7f8cd.bindPopup(popup_b4a859cbc6674df48c4cb78510692b5a)
+        ;
+
+        
+    
+    
+            var marker_97f80c2489e24ebf8cc90f49452bd126 = L.marker(
+                [37.5253852, 126.8373631],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_8669e75855af4fa6904700a0b33ef181 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_97f80c2489e24ebf8cc90f49452bd126.setIcon(icon_8669e75855af4fa6904700a0b33ef181);
+        
+    
+        var popup_ae5f1b0e8efc4dc8903c339ce7349570 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_52e82a2d6a7e4929a19a799cdc0eaa7e = $(`<div id="html_52e82a2d6a7e4929a19a799cdc0eaa7e" style="width: 100.0%; height: 100.0%;">믿음자동차</div>`)[0];
+            popup_ae5f1b0e8efc4dc8903c339ce7349570.setContent(html_52e82a2d6a7e4929a19a799cdc0eaa7e);
+        
+
+        marker_97f80c2489e24ebf8cc90f49452bd126.bindPopup(popup_ae5f1b0e8efc4dc8903c339ce7349570)
+        ;
+
+        
+    
+    
+            var marker_6d7ef68af8d6420f84cfdaa0f8d6e2fb = L.marker(
+                [37.4451886, 127.1800934],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_59084a98b0f54d64b29d3f6a8914e5f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6d7ef68af8d6420f84cfdaa0f8d6e2fb.setIcon(icon_59084a98b0f54d64b29d3f6a8914e5f4);
+        
+    
+        var popup_d922a5e0280f45bbad3f13b4f4c3a0d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46698964b40e4842a8ed0bf127fa8a31 = $(`<div id="html_46698964b40e4842a8ed0bf127fa8a31" style="width: 100.0%; height: 100.0%;">오성자동차</div>`)[0];
+            popup_d922a5e0280f45bbad3f13b4f4c3a0d8.setContent(html_46698964b40e4842a8ed0bf127fa8a31);
+        
+
+        marker_6d7ef68af8d6420f84cfdaa0f8d6e2fb.bindPopup(popup_d922a5e0280f45bbad3f13b4f4c3a0d8)
+        ;
+
+        
+    
+    
+            var marker_28955f022a5f4c6987c293dfd8e34d7c = L.marker(
+                [37.3895157, 127.0927086],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_670e393d2b6c4356a52bf179743b0c06 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_28955f022a5f4c6987c293dfd8e34d7c.setIcon(icon_670e393d2b6c4356a52bf179743b0c06);
+        
+    
+        var popup_31f28601250d4ec1bbefdc4624155636 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c6f6bf8b319e404c9eb8b8ad127d61b7 = $(`<div id="html_c6f6bf8b319e404c9eb8b8ad127d61b7" style="width: 100.0%; height: 100.0%;">T스테이션 판교점</div>`)[0];
+            popup_31f28601250d4ec1bbefdc4624155636.setContent(html_c6f6bf8b319e404c9eb8b8ad127d61b7);
+        
+
+        marker_28955f022a5f4c6987c293dfd8e34d7c.bindPopup(popup_31f28601250d4ec1bbefdc4624155636)
+        ;
+
+        
+    
+    
+            var marker_9b4b66f094fe4629908f20210a1101ef = L.marker(
+                [35.9586967, 129.4064827],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_b871355b8e034338b4406b9f52d5f565 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9b4b66f094fe4629908f20210a1101ef.setIcon(icon_b871355b8e034338b4406b9f52d5f565);
+        
+    
+        var popup_d538c138bf864042965279e9e67ca064 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b9c60d605e84575a031c41480b30cdd = $(`<div id="html_2b9c60d605e84575a031c41480b30cdd" style="width: 100.0%; height: 100.0%;">YB모터스 포항점</div>`)[0];
+            popup_d538c138bf864042965279e9e67ca064.setContent(html_2b9c60d605e84575a031c41480b30cdd);
+        
+
+        marker_9b4b66f094fe4629908f20210a1101ef.bindPopup(popup_d538c138bf864042965279e9e67ca064)
+        ;
+
+        
+    
+    
+            var marker_b7c2550039ca4f6ab0c7b54f1eefd3af = L.marker(
+                [37.3728916, 127.1116792],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_57c0a22661774768a8b351e9c86035a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b7c2550039ca4f6ab0c7b54f1eefd3af.setIcon(icon_57c0a22661774768a8b351e9c86035a8);
+        
+    
+        var popup_3933350bcdfd400281c556359c886c23 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_34b47e0c07f647578b194d1197043ef9 = $(`<div id="html_34b47e0c07f647578b194d1197043ef9" style="width: 100.0%; height: 100.0%;">오토오아시스 정자동점</div>`)[0];
+            popup_3933350bcdfd400281c556359c886c23.setContent(html_34b47e0c07f647578b194d1197043ef9);
+        
+
+        marker_b7c2550039ca4f6ab0c7b54f1eefd3af.bindPopup(popup_3933350bcdfd400281c556359c886c23)
+        ;
+
+        
+    
+    
+            var marker_1997eaacce414f14a161710f6f4b7b79 = L.marker(
+                [37.4103789, 127.1272851],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_8583db30251a486fad343d7a1a75057e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1997eaacce414f14a161710f6f4b7b79.setIcon(icon_8583db30251a486fad343d7a1a75057e);
+        
+    
+        var popup_131c2e4066e843e0a9fc66e87f8f3161 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_89cd93865b8f4b2bada43030d60e2851 = $(`<div id="html_89cd93865b8f4b2bada43030d60e2851" style="width: 100.0%; height: 100.0%;">오토오아시스 야탑NC점</div>`)[0];
+            popup_131c2e4066e843e0a9fc66e87f8f3161.setContent(html_89cd93865b8f4b2bada43030d60e2851);
+        
+
+        marker_1997eaacce414f14a161710f6f4b7b79.bindPopup(popup_131c2e4066e843e0a9fc66e87f8f3161)
+        ;
+
+        
+    
+    
+            var marker_02cf44253dba401eb481e09517adcd6c = L.marker(
+                [37.2777914, 127.0283873],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_8a9cbde3729d4493bd68b8e5a5e58b29 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_02cf44253dba401eb481e09517adcd6c.setIcon(icon_8a9cbde3729d4493bd68b8e5a5e58b29);
+        
+    
+        var popup_d516c46a1290482693bb640a6969ec4e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41989949c298493f953d366763f0e699 = $(`<div id="html_41989949c298493f953d366763f0e699" style="width: 100.0%; height: 100.0%;">BK타이어&오일</div>`)[0];
+            popup_d516c46a1290482693bb640a6969ec4e.setContent(html_41989949c298493f953d366763f0e699);
+        
+
+        marker_02cf44253dba401eb481e09517adcd6c.bindPopup(popup_d516c46a1290482693bb640a6969ec4e)
+        ;
+
+        
+    
+    
+            var marker_ba8a4752a16f41e0848341181119bf41 = L.marker(
+                [37.229628, 127.2149761],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_0cd6ec4eb78845cf860a04ba49de1f33 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ba8a4752a16f41e0848341181119bf41.setIcon(icon_0cd6ec4eb78845cf860a04ba49de1f33);
+        
+    
+        var popup_365514ed52c9403c81029ccab891f8fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_47c9c9b97f8f4362a05308dd972de1c4 = $(`<div id="html_47c9c9b97f8f4362a05308dd972de1c4" style="width: 100.0%; height: 100.0%;">애니카랜드 마평점</div>`)[0];
+            popup_365514ed52c9403c81029ccab891f8fb.setContent(html_47c9c9b97f8f4362a05308dd972de1c4);
+        
+
+        marker_ba8a4752a16f41e0848341181119bf41.bindPopup(popup_365514ed52c9403c81029ccab891f8fb)
+        ;
+
+        
+    
+    
+            var marker_68205d1d891642a69224b51e4b374602 = L.marker(
+                [38.1878986, 128.5861367],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_f3af37f05c5e47abbe68a6fde69090c2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_68205d1d891642a69224b51e4b374602.setIcon(icon_f3af37f05c5e47abbe68a6fde69090c2);
+        
+    
+        var popup_4b4bfa153c234177b3efc97d807b498a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_afd4fc3b51e74fe58f96b57d273a555a = $(`<div id="html_afd4fc3b51e74fe58f96b57d273a555a" style="width: 100.0%; height: 100.0%;">타이어프로 조양점</div>`)[0];
+            popup_4b4bfa153c234177b3efc97d807b498a.setContent(html_afd4fc3b51e74fe58f96b57d273a555a);
+        
+
+        marker_68205d1d891642a69224b51e4b374602.bindPopup(popup_4b4bfa153c234177b3efc97d807b498a)
+        ;
+
+        
+    
+    
+            var marker_b423c00fc3f944b2ad9a0b0f5bddfbf9 = L.marker(
+                [37.8910757, 127.7405645],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_3d1b54d558354ea29f2f56bb6cda4f64 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b423c00fc3f944b2ad9a0b0f5bddfbf9.setIcon(icon_3d1b54d558354ea29f2f56bb6cda4f64);
+        
+    
+        var popup_39803d7d8adb4c0ea50f7ad9b213f563 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_071502960eec47328c8901bfe71ff12d = $(`<div id="html_071502960eec47328c8901bfe71ff12d" style="width: 100.0%; height: 100.0%;">애니카랜드 후평점</div>`)[0];
+            popup_39803d7d8adb4c0ea50f7ad9b213f563.setContent(html_071502960eec47328c8901bfe71ff12d);
+        
+
+        marker_b423c00fc3f944b2ad9a0b0f5bddfbf9.bindPopup(popup_39803d7d8adb4c0ea50f7ad9b213f563)
+        ;
+
+        
+    
+    
+            var marker_a9317ffa141e46ee962c98174e0f58d8 = L.marker(
+                [37.8592263, 127.7277921],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_1d7b80a2dda5408c8f5175bbb7b22495 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a9317ffa141e46ee962c98174e0f58d8.setIcon(icon_1d7b80a2dda5408c8f5175bbb7b22495);
+        
+    
+        var popup_be16116a8bf14ba3831edb00a027f4a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6240880a70d649ab86080d0ed9b4395e = $(`<div id="html_6240880a70d649ab86080d0ed9b4395e" style="width: 100.0%; height: 100.0%;">보쉬카 호반점</div>`)[0];
+            popup_be16116a8bf14ba3831edb00a027f4a9.setContent(html_6240880a70d649ab86080d0ed9b4395e);
+        
+
+        marker_a9317ffa141e46ee962c98174e0f58d8.bindPopup(popup_be16116a8bf14ba3831edb00a027f4a9)
+        ;
+
+        
+    
+    
+            var marker_389dad1a6f5c48e2b3ed7c587245ee4a = L.marker(
+                [37.7633443, 128.9042799],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_a1fe95b5871d4b8988279a6af18bf467 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_389dad1a6f5c48e2b3ed7c587245ee4a.setIcon(icon_a1fe95b5871d4b8988279a6af18bf467);
+        
+    
+        var popup_5148ba6c7441482dbf5d209b2fc8d37b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e740343e3ea64fd491d17f4eead18b96 = $(`<div id="html_e740343e3ea64fd491d17f4eead18b96" style="width: 100.0%; height: 100.0%;">카맨샵 효일자동차병원</div>`)[0];
+            popup_5148ba6c7441482dbf5d209b2fc8d37b.setContent(html_e740343e3ea64fd491d17f4eead18b96);
+        
+
+        marker_389dad1a6f5c48e2b3ed7c587245ee4a.bindPopup(popup_5148ba6c7441482dbf5d209b2fc8d37b)
+        ;
+
+        
+    
+    
+            var marker_a8b70cc10daa45a78c893ff56ba47613 = L.marker(
+                [37.5209184, 129.1141648],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_fe9cb82fe39f4b93afd5276946f4a3be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a8b70cc10daa45a78c893ff56ba47613.setIcon(icon_fe9cb82fe39f4b93afd5276946f4a3be);
+        
+    
+        var popup_ad70f4f1d5884a6594eb1bfbc1941596 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7897116c653249c4b3a354e4442c9262 = $(`<div id="html_7897116c653249c4b3a354e4442c9262" style="width: 100.0%; height: 100.0%;">오토오아시스 로타리점</div>`)[0];
+            popup_ad70f4f1d5884a6594eb1bfbc1941596.setContent(html_7897116c653249c4b3a354e4442c9262);
+        
+
+        marker_a8b70cc10daa45a78c893ff56ba47613.bindPopup(popup_ad70f4f1d5884a6594eb1bfbc1941596)
+        ;
+
+        
+    
+    
+            var marker_c76abcaff451495b94dd591cdd2ca547 = L.marker(
+                [37.7239185, 127.1909413],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_784cc202511c457dafd7c7e466b1f69a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c76abcaff451495b94dd591cdd2ca547.setIcon(icon_784cc202511c457dafd7c7e466b1f69a);
+        
+    
+        var popup_38d83b601a704d00b4ff7db6ae2ee473 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f74e0a4525b4498da8d9fbccc117073a = $(`<div id="html_f74e0a4525b4498da8d9fbccc117073a" style="width: 100.0%; height: 100.0%;">티스테이션 진접점</div>`)[0];
+            popup_38d83b601a704d00b4ff7db6ae2ee473.setContent(html_f74e0a4525b4498da8d9fbccc117073a);
+        
+
+        marker_c76abcaff451495b94dd591cdd2ca547.bindPopup(popup_38d83b601a704d00b4ff7db6ae2ee473)
+        ;
+
+        
+    
+    
+            var marker_93cf04d79bcd41deadf7984462b66cfe = L.marker(
+                [37.6137637, 127.1557106],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_f725ea7a91f140159f9c545ccd1ee3fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_93cf04d79bcd41deadf7984462b66cfe.setIcon(icon_f725ea7a91f140159f9c545ccd1ee3fb);
+        
+    
+        var popup_926e4917a59c458fa2687177685a2396 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10b0f71deed24d1893d82b586a2c9d35 = $(`<div id="html_10b0f71deed24d1893d82b586a2c9d35" style="width: 100.0%; height: 100.0%;">오일플랜트</div>`)[0];
+            popup_926e4917a59c458fa2687177685a2396.setContent(html_10b0f71deed24d1893d82b586a2c9d35);
+        
+
+        marker_93cf04d79bcd41deadf7984462b66cfe.bindPopup(popup_926e4917a59c458fa2687177685a2396)
+        ;
+
+        
+    
+    
+            var marker_c83d66b4be9146b2a49fea283dc9d4df = L.marker(
+                [37.6555317, 127.2476768],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_a61a344b0b814267b5b5a40700b898db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c83d66b4be9146b2a49fea283dc9d4df.setIcon(icon_a61a344b0b814267b5b5a40700b898db);
+        
+    
+        var popup_d357ebbbdf214ce887ceb6054951062f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a56d89ff3cd4daa93230be82a1d2088 = $(`<div id="html_0a56d89ff3cd4daa93230be82a1d2088" style="width: 100.0%; height: 100.0%;">티스테이션 호평점</div>`)[0];
+            popup_d357ebbbdf214ce887ceb6054951062f.setContent(html_0a56d89ff3cd4daa93230be82a1d2088);
+        
+
+        marker_c83d66b4be9146b2a49fea283dc9d4df.bindPopup(popup_d357ebbbdf214ce887ceb6054951062f)
+        ;
+
+        
+    
+    
+            var marker_1a0f1f267f504cac93e41d5ef60f47ba = L.marker(
+                [37.5928413, 127.2287839],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_498f1c65af7b4427aa12c4582b35698b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1a0f1f267f504cac93e41d5ef60f47ba.setIcon(icon_498f1c65af7b4427aa12c4582b35698b);
+        
+    
+        var popup_c03c2c68513a4fcc8e66f97742ce641e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eeb73168b6c04ce6953b6152b79cb2f9 = $(`<div id="html_eeb73168b6c04ce6953b6152b79cb2f9" style="width: 100.0%; height: 100.0%;">오토캠프</div>`)[0];
+            popup_c03c2c68513a4fcc8e66f97742ce641e.setContent(html_eeb73168b6c04ce6953b6152b79cb2f9);
+        
+
+        marker_1a0f1f267f504cac93e41d5ef60f47ba.bindPopup(popup_c03c2c68513a4fcc8e66f97742ce641e)
+        ;
+
+        
+    
+    
+            var marker_6a661413b2ae41b096282f6205ef6a95 = L.marker(
+                [36.9684282, 127.9310893],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_1ca5df26ec5a4016b555eb6120b2b985 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6a661413b2ae41b096282f6205ef6a95.setIcon(icon_1ca5df26ec5a4016b555eb6120b2b985);
+        
+    
+        var popup_17104ccaf4664af491755f2592b8ea69 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c08eb7b360324dbe9340f6f3ee7a194f = $(`<div id="html_c08eb7b360324dbe9340f6f3ee7a194f" style="width: 100.0%; height: 100.0%;">오토오아시스 문화점</div>`)[0];
+            popup_17104ccaf4664af491755f2592b8ea69.setContent(html_c08eb7b360324dbe9340f6f3ee7a194f);
+        
+
+        marker_6a661413b2ae41b096282f6205ef6a95.bindPopup(popup_17104ccaf4664af491755f2592b8ea69)
+        ;
+
+        
+    
+    
+            var marker_9f13706d38bd4c1d9b05ad560bc41cee = L.marker(
+                [37.3482694, 127.9291485],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_702745e43cf54cccb17085e4db39b87b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9f13706d38bd4c1d9b05ad560bc41cee.setIcon(icon_702745e43cf54cccb17085e4db39b87b);
+        
+    
+        var popup_a15ddb9fde7b44bd8e861e2821024938 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2962fe2de5bc4c37bf989f67194fe9e5 = $(`<div id="html_2962fe2de5bc4c37bf989f67194fe9e5" style="width: 100.0%; height: 100.0%;">오토오아시스 단계점</div>`)[0];
+            popup_a15ddb9fde7b44bd8e861e2821024938.setContent(html_2962fe2de5bc4c37bf989f67194fe9e5);
+        
+
+        marker_9f13706d38bd4c1d9b05ad560bc41cee.bindPopup(popup_a15ddb9fde7b44bd8e861e2821024938)
+        ;
+
+        
+    
+    
+            var marker_fdc514da9f9f4e159d3014fc388198af = L.marker(
+                [37.285248, 127.4501821],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_c8230bf84cab48e58a57160710d7f80a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fdc514da9f9f4e159d3014fc388198af.setIcon(icon_c8230bf84cab48e58a57160710d7f80a);
+        
+    
+        var popup_e4cc9d19197542899db11c5a41dddb01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7dc70f4492ff4f2fb31e5bfd0fe5ee7b = $(`<div id="html_7dc70f4492ff4f2fb31e5bfd0fe5ee7b" style="width: 100.0%; height: 100.0%;">애니카랜드 증포점</div>`)[0];
+            popup_e4cc9d19197542899db11c5a41dddb01.setContent(html_7dc70f4492ff4f2fb31e5bfd0fe5ee7b);
+        
+
+        marker_fdc514da9f9f4e159d3014fc388198af.bindPopup(popup_e4cc9d19197542899db11c5a41dddb01)
+        ;
+
+        
+    
+    
+            var marker_d45c6f0419894f8d9e1fc23371efa3f2 = L.marker(
+                [36.7754369, 126.4586727],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_b64f2eff6dd54e48a814e55b9451282a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d45c6f0419894f8d9e1fc23371efa3f2.setIcon(icon_b64f2eff6dd54e48a814e55b9451282a);
+        
+    
+        var popup_231bc1f68a9947969bc68c59c7b53bde = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1cd719855bec4c4b942b493a7ffcd429 = $(`<div id="html_1cd719855bec4c4b942b493a7ffcd429" style="width: 100.0%; height: 100.0%;">카맨샵 한울자동차정비</div>`)[0];
+            popup_231bc1f68a9947969bc68c59c7b53bde.setContent(html_1cd719855bec4c4b942b493a7ffcd429);
+        
+
+        marker_d45c6f0419894f8d9e1fc23371efa3f2.bindPopup(popup_231bc1f68a9947969bc68c59c7b53bde)
+        ;
+
+        
+    
+    
+            var marker_6d6b3aa38f1b422d8068f7b02f82fb5f = L.marker(
+                [36.8083197, 127.106278],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_3cd60ffbe7af42619db47fe741e5559c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6d6b3aa38f1b422d8068f7b02f82fb5f.setIcon(icon_3cd60ffbe7af42619db47fe741e5559c);
+        
+    
+        var popup_9a5dac1f53a64a5eb33ce5b95f0d977a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c7e6e4228fc4deab43530f2813b75db = $(`<div id="html_5c7e6e4228fc4deab43530f2813b75db" style="width: 100.0%; height: 100.0%;">하이카프라자 백종카센터 불당점</div>`)[0];
+            popup_9a5dac1f53a64a5eb33ce5b95f0d977a.setContent(html_5c7e6e4228fc4deab43530f2813b75db);
+        
+
+        marker_6d6b3aa38f1b422d8068f7b02f82fb5f.bindPopup(popup_9a5dac1f53a64a5eb33ce5b95f0d977a)
+        ;
+
+        
+    
+    
+            var marker_2e201957195a43db9b6c1699cf383db6 = L.marker(
+                [36.8053588, 127.1590649],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_d338a4a219084a2ea1ae92fb59c205c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2e201957195a43db9b6c1699cf383db6.setIcon(icon_d338a4a219084a2ea1ae92fb59c205c1);
+        
+    
+        var popup_ee942b7c2b6d4278af84c5d567108fdb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b602e1214d874b1b98629a3b65238f05 = $(`<div id="html_b602e1214d874b1b98629a3b65238f05" style="width: 100.0%; height: 100.0%;">엔진마을 동남구점</div>`)[0];
+            popup_ee942b7c2b6d4278af84c5d567108fdb.setContent(html_b602e1214d874b1b98629a3b65238f05);
+        
+
+        marker_2e201957195a43db9b6c1699cf383db6.bindPopup(popup_ee942b7c2b6d4278af84c5d567108fdb)
+        ;
+
+        
+    
+    
+            var marker_ee7602968d444a8a90a792cb649f2a16 = L.marker(
+                [37.5547852, 126.6692674],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_b7bacbe83a12446f9682da04fbdc2c1f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ee7602968d444a8a90a792cb649f2a16.setIcon(icon_b7bacbe83a12446f9682da04fbdc2c1f);
+        
+    
+        var popup_40f51189294c44479928d7a8ad92a918 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ce8919cf1ed42819de0b5439d0603fb = $(`<div id="html_2ce8919cf1ed42819de0b5439d0603fb" style="width: 100.0%; height: 100.0%;">마일레오토서비스 인천서구점 좋은차정비</div>`)[0];
+            popup_40f51189294c44479928d7a8ad92a918.setContent(html_2ce8919cf1ed42819de0b5439d0603fb);
+        
+
+        marker_ee7602968d444a8a90a792cb649f2a16.bindPopup(popup_40f51189294c44479928d7a8ad92a918)
+        ;
+
+        
+    
+    
+            var marker_124b4fac29be4bd4a69842a493bdf52e = L.marker(
+                [37.7710286, 126.7749613],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_9ff174b68bb74efb852cde767542f6b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_124b4fac29be4bd4a69842a493bdf52e.setIcon(icon_9ff174b68bb74efb852cde767542f6b2);
+        
+    
+        var popup_ae09a4511a534154ab535af93fb177bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f39370eb9ed24a50b3c691bb20f966ee = $(`<div id="html_f39370eb9ed24a50b3c691bb20f966ee" style="width: 100.0%; height: 100.0%;">픽스오토</div>`)[0];
+            popup_ae09a4511a534154ab535af93fb177bc.setContent(html_f39370eb9ed24a50b3c691bb20f966ee);
+        
+
+        marker_124b4fac29be4bd4a69842a493bdf52e.bindPopup(popup_ae09a4511a534154ab535af93fb177bc)
+        ;
+
+        
+    
+    
+            var marker_8d0361bb0d984a1789ed24e19027632d = L.marker(
+                [37.6788052, 126.7644142],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_04901cdd22364caba8ee31a63691cd41 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8d0361bb0d984a1789ed24e19027632d.setIcon(icon_04901cdd22364caba8ee31a63691cd41);
+        
+    
+        var popup_9a4ace69f69941deadde6518f505a0d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e71241a9b5e4b94bec968515c53fa22 = $(`<div id="html_9e71241a9b5e4b94bec968515c53fa22" style="width: 100.0%; height: 100.0%;">후곡카프라자</div>`)[0];
+            popup_9a4ace69f69941deadde6518f505a0d9.setContent(html_9e71241a9b5e4b94bec968515c53fa22);
+        
+
+        marker_8d0361bb0d984a1789ed24e19027632d.bindPopup(popup_9a4ace69f69941deadde6518f505a0d9)
+        ;
+
+        
+    
+    
+            var marker_6d6c1b039d374654889e6119eaf2de4f = L.marker(
+                [37.59896150000001, 126.6629068],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_861b47e0001a41c58eb911449444d314 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6d6c1b039d374654889e6119eaf2de4f.setIcon(icon_861b47e0001a41c58eb911449444d314);
+        
+    
+        var popup_4ae109f818ae4fb2af6c1a6c2b1ac787 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad83504b76054e1fab2898ab5e28446a = $(`<div id="html_ad83504b76054e1fab2898ab5e28446a" style="width: 100.0%; height: 100.0%;">동행자동차공업사</div>`)[0];
+            popup_4ae109f818ae4fb2af6c1a6c2b1ac787.setContent(html_ad83504b76054e1fab2898ab5e28446a);
+        
+
+        marker_6d6c1b039d374654889e6119eaf2de4f.bindPopup(popup_4ae109f818ae4fb2af6c1a6c2b1ac787)
+        ;
+
+        
+    
+    
+            var marker_8336c9e3e63645e3b0b4c419edb34186 = L.marker(
+                [37.5559064, 127.2018191],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_4fec4b9382c841a6b3bfc370064c934f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8336c9e3e63645e3b0b4c419edb34186.setIcon(icon_4fec4b9382c841a6b3bfc370064c934f);
+        
+    
+        var popup_38f06d0275f24ec1aeb924a933fb1593 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f6fab8df0bb4191adf9772e3d09a31e = $(`<div id="html_2f6fab8df0bb4191adf9772e3d09a31e" style="width: 100.0%; height: 100.0%;">제이모터스</div>`)[0];
+            popup_38f06d0275f24ec1aeb924a933fb1593.setContent(html_2f6fab8df0bb4191adf9772e3d09a31e);
+        
+
+        marker_8336c9e3e63645e3b0b4c419edb34186.bindPopup(popup_38f06d0275f24ec1aeb924a933fb1593)
+        ;
+
+        
+    
+    
+            var marker_0fa4a6ad5cf345e29d5295d3986c1824 = L.marker(
+                [37.2588043, 127.1427995],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_85e9879a4f6f4f76938af5301378f24a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0fa4a6ad5cf345e29d5295d3986c1824.setIcon(icon_85e9879a4f6f4f76938af5301378f24a);
+        
+    
+        var popup_c18a48ab6ede458992a3f0e1f37464b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7230fb4d8ba64dedb4d52a025ab701f2 = $(`<div id="html_7230fb4d8ba64dedb4d52a025ab701f2" style="width: 100.0%; height: 100.0%;">티스테이션 용인상하점</div>`)[0];
+            popup_c18a48ab6ede458992a3f0e1f37464b3.setContent(html_7230fb4d8ba64dedb4d52a025ab701f2);
+        
+
+        marker_0fa4a6ad5cf345e29d5295d3986c1824.bindPopup(popup_c18a48ab6ede458992a3f0e1f37464b3)
+        ;
+
+        
+    
+    
+            var marker_c88cacb2c27543c289892d0dab1330c3 = L.marker(
+                [37.3009816, 126.7868772],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_6f4930ddbaca434bb1740e4e71c242ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c88cacb2c27543c289892d0dab1330c3.setIcon(icon_6f4930ddbaca434bb1740e4e71c242ea);
+        
+    
+        var popup_7000a8171b0045b69efa6733a881830d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_234e365448e04e9dbbc8c4aa3acf6cf4 = $(`<div id="html_234e365448e04e9dbbc8c4aa3acf6cf4" style="width: 100.0%; height: 100.0%;">토르모터스</div>`)[0];
+            popup_7000a8171b0045b69efa6733a881830d.setContent(html_234e365448e04e9dbbc8c4aa3acf6cf4);
+        
+
+        marker_c88cacb2c27543c289892d0dab1330c3.bindPopup(popup_7000a8171b0045b69efa6733a881830d)
+        ;
+
+        
+    
+    
+            var marker_d78db09510d045bcba122a4d5c143b91 = L.marker(
+                [37.3376196, 126.8175946],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_82a10ead0b1d436b946771a951b1a59b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d78db09510d045bcba122a4d5c143b91.setIcon(icon_82a10ead0b1d436b946771a951b1a59b);
+        
+    
+        var popup_708e91576d0d421d990688e2f4f7291f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4b69101d97942318d329010d9b4f309 = $(`<div id="html_b4b69101d97942318d329010d9b4f309" style="width: 100.0%; height: 100.0%;">보쉬카서비스 안산와카</div>`)[0];
+            popup_708e91576d0d421d990688e2f4f7291f.setContent(html_b4b69101d97942318d329010d9b4f309);
+        
+
+        marker_d78db09510d045bcba122a4d5c143b91.bindPopup(popup_708e91576d0d421d990688e2f4f7291f)
+        ;
+
+        
+    
+    
+            var marker_8cd2ec522d1e46269769361da99ff2d8 = L.marker(
+                [37.352131, 126.7479245],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_55a857e4342b4d5a997b6e92ef86a9ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8cd2ec522d1e46269769361da99ff2d8.setIcon(icon_55a857e4342b4d5a997b6e92ef86a9ea);
+        
+    
+        var popup_ab0bd16b32e445608a81f12535ff9e1a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_67e01825d37f4fb7829b7df485965d9c = $(`<div id="html_67e01825d37f4fb7829b7df485965d9c" style="width: 100.0%; height: 100.0%;">퍼스트펭귄 모터스</div>`)[0];
+            popup_ab0bd16b32e445608a81f12535ff9e1a.setContent(html_67e01825d37f4fb7829b7df485965d9c);
+        
+
+        marker_8cd2ec522d1e46269769361da99ff2d8.bindPopup(popup_ab0bd16b32e445608a81f12535ff9e1a)
+        ;
+
+        
+    
+    
+            var marker_4ee6586655514fd5bee9d19694d20225 = L.marker(
+                [37.45090200000001, 126.7180245],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_1250c39d55be4a7292d5fefe76fc3358 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4ee6586655514fd5bee9d19694d20225.setIcon(icon_1250c39d55be4a7292d5fefe76fc3358);
+        
+    
+        var popup_5167d261e7624c72a88ae4def777735b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ee09adc1a094195b15ac6655392b44b = $(`<div id="html_4ee09adc1a094195b15ac6655392b44b" style="width: 100.0%; height: 100.0%;">하이테크모터 서비스</div>`)[0];
+            popup_5167d261e7624c72a88ae4def777735b.setContent(html_4ee09adc1a094195b15ac6655392b44b);
+        
+
+        marker_4ee6586655514fd5bee9d19694d20225.bindPopup(popup_5167d261e7624c72a88ae4def777735b)
+        ;
+
+        
+    
+    
+            var marker_6768eba355d04634ad7427b6bc15230f = L.marker(
+                [35.8373815, 128.6862915],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_44c4ed00abbb4152ac3efa021f7898de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6768eba355d04634ad7427b6bc15230f.setIcon(icon_44c4ed00abbb4152ac3efa021f7898de);
+        
+    
+        var popup_b38813e8c510497a99ea2cd9828515d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a35cfbce8cf4c6e83a0230cfc479521 = $(`<div id="html_8a35cfbce8cf4c6e83a0230cfc479521" style="width: 100.0%; height: 100.0%;">오토 마이 모티브</div>`)[0];
+            popup_b38813e8c510497a99ea2cd9828515d2.setContent(html_8a35cfbce8cf4c6e83a0230cfc479521);
+        
+
+        marker_6768eba355d04634ad7427b6bc15230f.bindPopup(popup_b38813e8c510497a99ea2cd9828515d2)
+        ;
+
+        
+    
+    
+            var marker_d23d60d48cc6404d805b3f854ffacb7d = L.marker(
+                [35.1110007, 129.1109872],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_8e73d250e7e34ca6bc5e77f68e3dd1ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d23d60d48cc6404d805b3f854ffacb7d.setIcon(icon_8e73d250e7e34ca6bc5e77f68e3dd1ea);
+        
+    
+        var popup_0f8a7fa5bed84ce8872a61c8c4b5f445 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4e4f0c3e1204ac1bb2053d81d010712 = $(`<div id="html_b4e4f0c3e1204ac1bb2053d81d010712" style="width: 100.0%; height: 100.0%;">원지카클리닉 용호점</div>`)[0];
+            popup_0f8a7fa5bed84ce8872a61c8c4b5f445.setContent(html_b4e4f0c3e1204ac1bb2053d81d010712);
+        
+
+        marker_d23d60d48cc6404d805b3f854ffacb7d.bindPopup(popup_0f8a7fa5bed84ce8872a61c8c4b5f445)
+        ;
+
+        
+    
+    
+            var marker_5f422b2b7fad423f9b0eaef8f92f9235 = L.marker(
+                [35.1570378, 129.1142436],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_aed68b03c2b94dd9b12b88d2b37fb713 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5f422b2b7fad423f9b0eaef8f92f9235.setIcon(icon_aed68b03c2b94dd9b12b88d2b37fb713);
+        
+    
+        var popup_6fdff8e4dc7646a6822c7348dfabed22 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6852b96fa954b588f923d01e583bdac = $(`<div id="html_e6852b96fa954b588f923d01e583bdac" style="width: 100.0%; height: 100.0%;">타이어프로 광안점</div>`)[0];
+            popup_6fdff8e4dc7646a6822c7348dfabed22.setContent(html_e6852b96fa954b588f923d01e583bdac);
+        
+
+        marker_5f422b2b7fad423f9b0eaef8f92f9235.bindPopup(popup_6fdff8e4dc7646a6822c7348dfabed22)
+        ;
+
+        
+    
+    
+            var marker_3917ec98bd8e417b8b8162ed9c01a1b6 = L.marker(
+                [35.2061579, 129.0688086],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_e308c5009543441baa9aaeec8aa68867 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3917ec98bd8e417b8b8162ed9c01a1b6.setIcon(icon_e308c5009543441baa9aaeec8aa68867);
+        
+    
+        var popup_b37e27cf60964b1881889495bd19f45d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa797338b02f46059db485bd0a19adec = $(`<div id="html_fa797338b02f46059db485bd0a19adec" style="width: 100.0%; height: 100.0%;">티스테이션 동래점</div>`)[0];
+            popup_b37e27cf60964b1881889495bd19f45d.setContent(html_fa797338b02f46059db485bd0a19adec);
+        
+
+        marker_3917ec98bd8e417b8b8162ed9c01a1b6.bindPopup(popup_b37e27cf60964b1881889495bd19f45d)
+        ;
+
+        
+    
+    
+            var marker_aa8e6d8c4a5f4fe4a220a657a090b780 = L.marker(
+                [35.209883, 129.1048874],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_56ed5adfae714fcdb98a9f5cd9a55abb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_aa8e6d8c4a5f4fe4a220a657a090b780.setIcon(icon_56ed5adfae714fcdb98a9f5cd9a55abb);
+        
+    
+        var popup_53f7306fd50343168c75387f7cdf7ca4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e8eebd6515554785978895d0bfc2ad92 = $(`<div id="html_e8eebd6515554785978895d0bfc2ad92" style="width: 100.0%; height: 100.0%;">국제자동차정비</div>`)[0];
+            popup_53f7306fd50343168c75387f7cdf7ca4.setContent(html_e8eebd6515554785978895d0bfc2ad92);
+        
+
+        marker_aa8e6d8c4a5f4fe4a220a657a090b780.bindPopup(popup_53f7306fd50343168c75387f7cdf7ca4)
+        ;
+
+        
+    
+    
+            var marker_3b000db1a8e64a989afa21b32b3d9695 = L.marker(
+                [35.4977464, 129.4237363],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_532092ee9b204ece9e43979248a5868b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3b000db1a8e64a989afa21b32b3d9695.setIcon(icon_532092ee9b204ece9e43979248a5868b);
+        
+    
+        var popup_03c62dfdb28d455399b8357e00c588e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d1b7a450061449faaf068acd1749cf77 = $(`<div id="html_d1b7a450061449faaf068acd1749cf77" style="width: 100.0%; height: 100.0%;">타이어아울렛</div>`)[0];
+            popup_03c62dfdb28d455399b8357e00c588e1.setContent(html_d1b7a450061449faaf068acd1749cf77);
+        
+
+        marker_3b000db1a8e64a989afa21b32b3d9695.bindPopup(popup_03c62dfdb28d455399b8357e00c588e1)
+        ;
+
+        
+    
+    
+            var marker_6d5431cf44984022a39725a82134475e = L.marker(
+                [35.56555, 129.3549674],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_aa86fd3f059d4f8294e1f400097ab675 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6d5431cf44984022a39725a82134475e.setIcon(icon_aa86fd3f059d4f8294e1f400097ab675);
+        
+    
+        var popup_7cb170bc5c05433b9dab88761731fa01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_36efb7649c4649948990c780ee3a5d8e = $(`<div id="html_36efb7649c4649948990c780ee3a5d8e" style="width: 100.0%; height: 100.0%;">AN MOTORS</div>`)[0];
+            popup_7cb170bc5c05433b9dab88761731fa01.setContent(html_36efb7649c4649948990c780ee3a5d8e);
+        
+
+        marker_6d5431cf44984022a39725a82134475e.bindPopup(popup_7cb170bc5c05433b9dab88761731fa01)
+        ;
+
+        
+    
+    
+            var marker_18f84a134e3d4e7883524b33799f121e = L.marker(
+                [35.1340505, 128.9718474],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_9bcae1187fe6406d8569ebf00d9d5623 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_18f84a134e3d4e7883524b33799f121e.setIcon(icon_9bcae1187fe6406d8569ebf00d9d5623);
+        
+    
+        var popup_0f19dfe610834061bce43db9528fc68e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d63ab0bb592243e58e3c64137ba16ea3 = $(`<div id="html_d63ab0bb592243e58e3c64137ba16ea3" style="width: 100.0%; height: 100.0%;">타이어프로 사상점</div>`)[0];
+            popup_0f19dfe610834061bce43db9528fc68e.setContent(html_d63ab0bb592243e58e3c64137ba16ea3);
+        
+
+        marker_18f84a134e3d4e7883524b33799f121e.bindPopup(popup_0f19dfe610834061bce43db9528fc68e)
+        ;
+
+        
+    
+    
+            var marker_d31d1c0a521b4c4294661dc1853e052b = L.marker(
+                [35.3108778, 129.030689],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_0d4e158017994acf805060e50c0ca4d5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d31d1c0a521b4c4294661dc1853e052b.setIcon(icon_0d4e158017994acf805060e50c0ca4d5);
+        
+    
+        var popup_2a83ccfd4d754a4aa7cde501498e64ba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c9a2a1956a14211ae95612167c68629 = $(`<div id="html_6c9a2a1956a14211ae95612167c68629" style="width: 100.0%; height: 100.0%;">에이스 디젤차량 전문수리점</div>`)[0];
+            popup_2a83ccfd4d754a4aa7cde501498e64ba.setContent(html_6c9a2a1956a14211ae95612167c68629);
+        
+
+        marker_d31d1c0a521b4c4294661dc1853e052b.bindPopup(popup_2a83ccfd4d754a4aa7cde501498e64ba)
+        ;
+
+        
+    
+    
+            var marker_f44de9bb99c74f458859e702f1d0d4d8 = L.marker(
+                [35.3303266, 129.0004987],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_eaea07b1a4094c6ebfef59570299c507 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f44de9bb99c74f458859e702f1d0d4d8.setIcon(icon_eaea07b1a4094c6ebfef59570299c507);
+        
+    
+        var popup_2db6d114844d4f109b6c4315069257af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4712f2905d60471987f36121000e0141 = $(`<div id="html_4712f2905d60471987f36121000e0141" style="width: 100.0%; height: 100.0%;">애니카랜드 물금점</div>`)[0];
+            popup_2db6d114844d4f109b6c4315069257af.setContent(html_4712f2905d60471987f36121000e0141);
+        
+
+        marker_f44de9bb99c74f458859e702f1d0d4d8.bindPopup(popup_2db6d114844d4f109b6c4315069257af)
+        ;
+
+        
+    
+    
+            var marker_370440b28d70493d826689823c611314 = L.marker(
+                [35.3366593, 129.0365928],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_665143fe47a8434183d140235740acc4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_370440b28d70493d826689823c611314.setIcon(icon_665143fe47a8434183d140235740acc4);
+        
+    
+        var popup_41411430ab694d49a64c3b29b43e9a6a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b66e0d0e844449c82ea55aff77cc060 = $(`<div id="html_1b66e0d0e844449c82ea55aff77cc060" style="width: 100.0%; height: 100.0%;">라이언모터스 타이어아울렛점</div>`)[0];
+            popup_41411430ab694d49a64c3b29b43e9a6a.setContent(html_1b66e0d0e844449c82ea55aff77cc060);
+        
+
+        marker_370440b28d70493d826689823c611314.bindPopup(popup_41411430ab694d49a64c3b29b43e9a6a)
+        ;
+
+        
+    
+    
+            var marker_9f130806027143fd80c22248fd17909f = L.marker(
+                [35.4062743, 129.1722186],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_7e440031219b40ceb8061eed6538ba9f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9f130806027143fd80c22248fd17909f.setIcon(icon_7e440031219b40ceb8061eed6538ba9f);
+        
+    
+        var popup_2953a617de7b4fbfa0c2b62e57aa37dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_857d91d226ef4a4183963713abdc1672 = $(`<div id="html_857d91d226ef4a4183963713abdc1672" style="width: 100.0%; height: 100.0%;">하이카프라자 웅상점</div>`)[0];
+            popup_2953a617de7b4fbfa0c2b62e57aa37dd.setContent(html_857d91d226ef4a4183963713abdc1672);
+        
+
+        marker_9f130806027143fd80c22248fd17909f.bindPopup(popup_2953a617de7b4fbfa0c2b62e57aa37dd)
+        ;
+
+        
+    
+    
+            var marker_bd2aa22bd7de45ababa33e19a96a488f = L.marker(
+                [35.2214575, 128.8678118],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_702fb35b6f964d2ea20ef0a6b79479e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bd2aa22bd7de45ababa33e19a96a488f.setIcon(icon_702fb35b6f964d2ea20ef0a6b79479e3);
+        
+    
+        var popup_44d528ad999d415cb9257be2b6fbb992 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_67d7cf6def044f1a91e07fbe99697c6a = $(`<div id="html_67d7cf6def044f1a91e07fbe99697c6a" style="width: 100.0%; height: 100.0%;">모터뱅크센터</div>`)[0];
+            popup_44d528ad999d415cb9257be2b6fbb992.setContent(html_67d7cf6def044f1a91e07fbe99697c6a);
+        
+
+        marker_bd2aa22bd7de45ababa33e19a96a488f.bindPopup(popup_44d528ad999d415cb9257be2b6fbb992)
+        ;
+
+        
+    
+    
+            var marker_b76346efbca44671bfc5a15780152794 = L.marker(
+                [35.0998632, 128.9286965],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_e5a265227892465fa6cfd048e57217e2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b76346efbca44671bfc5a15780152794.setIcon(icon_e5a265227892465fa6cfd048e57217e2);
+        
+    
+        var popup_b1c5251d0fe049c3a79b2204b76adc62 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82da925be08c4139940885872f86427d = $(`<div id="html_82da925be08c4139940885872f86427d" style="width: 100.0%; height: 100.0%;">디알에프</div>`)[0];
+            popup_b1c5251d0fe049c3a79b2204b76adc62.setContent(html_82da925be08c4139940885872f86427d);
+        
+
+        marker_b76346efbca44671bfc5a15780152794.bindPopup(popup_b1c5251d0fe049c3a79b2204b76adc62)
+        ;
+
+        
+    
+    
+            var marker_817ed2878ce94bcaa904a593b35fc9c3 = L.marker(
+                [35.2293238, 128.9148391],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_3342ea529b714e4c8f76f22da1c10d01 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_817ed2878ce94bcaa904a593b35fc9c3.setIcon(icon_3342ea529b714e4c8f76f22da1c10d01);
+        
+    
+        var popup_d8a8af699b2549319210a15fe0073783 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c23a7e05edb84199bdce65adc4b98a48 = $(`<div id="html_c23a7e05edb84199bdce65adc4b98a48" style="width: 100.0%; height: 100.0%;">세븐타이어</div>`)[0];
+            popup_d8a8af699b2549319210a15fe0073783.setContent(html_c23a7e05edb84199bdce65adc4b98a48);
+        
+
+        marker_817ed2878ce94bcaa904a593b35fc9c3.bindPopup(popup_d8a8af699b2549319210a15fe0073783)
+        ;
+
+        
+    
+    
+            var marker_97cdfb3f0d0242d1a7c4a33dbfd653c9 = L.marker(
+                [35.1135889, 129.0210567],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_625764895f154b16afad73cae3a44c12 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_97cdfb3f0d0242d1a7c4a33dbfd653c9.setIcon(icon_625764895f154b16afad73cae3a44c12);
+        
+    
+        var popup_bea12a94b4dd462eac9df7f42fb71a5c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4dc5ff4e4b804255be86490d37de5964 = $(`<div id="html_4dc5ff4e4b804255be86490d37de5964" style="width: 100.0%; height: 100.0%;">티스테이션 동대신점</div>`)[0];
+            popup_bea12a94b4dd462eac9df7f42fb71a5c.setContent(html_4dc5ff4e4b804255be86490d37de5964);
+        
+
+        marker_97cdfb3f0d0242d1a7c4a33dbfd653c9.bindPopup(popup_bea12a94b4dd462eac9df7f42fb71a5c)
+        ;
+
+        
+    
+    
+            var marker_8890021f9def4037b92ebc6907b6a539 = L.marker(
+                [35.2529364, 129.0911533],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_ba893fe7f09c49dd84baa44ea386dd0c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8890021f9def4037b92ebc6907b6a539.setIcon(icon_ba893fe7f09c49dd84baa44ea386dd0c);
+        
+    
+        var popup_0b8b42f536cc415381253f44ff1b9eb3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_530a95b6b1a44ab6aabc290fb8011354 = $(`<div id="html_530a95b6b1a44ab6aabc290fb8011354" style="width: 100.0%; height: 100.0%;">타이어프로 금정점</div>`)[0];
+            popup_0b8b42f536cc415381253f44ff1b9eb3.setContent(html_530a95b6b1a44ab6aabc290fb8011354);
+        
+
+        marker_8890021f9def4037b92ebc6907b6a539.bindPopup(popup_0b8b42f536cc415381253f44ff1b9eb3)
+        ;
+
+        
+    
+    
+            var marker_27188cf5e1c542c382f6734a51359408 = L.marker(
+                [35.8832975, 128.7041013],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_ee93c43f663f4f1782adb793030e3abe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_27188cf5e1c542c382f6734a51359408.setIcon(icon_ee93c43f663f4f1782adb793030e3abe);
+        
+    
+        var popup_9ddf9a60b5174f9f9edab85550bcdde9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5346010cfb3436881f3ee4c00480808 = $(`<div id="html_d5346010cfb3436881f3ee4c00480808" style="width: 100.0%; height: 100.0%;">오일팩토리</div>`)[0];
+            popup_9ddf9a60b5174f9f9edab85550bcdde9.setContent(html_d5346010cfb3436881f3ee4c00480808);
+        
+
+        marker_27188cf5e1c542c382f6734a51359408.bindPopup(popup_9ddf9a60b5174f9f9edab85550bcdde9)
+        ;
+
+        
+    
+    
+            var marker_edb3a8d179ed4e839c7fa87f18da093d = L.marker(
+                [35.1238536, 129.0416516],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_8f25f278601a42d8b943a0a719b1b980 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_edb3a8d179ed4e839c7fa87f18da093d.setIcon(icon_8f25f278601a42d8b943a0a719b1b980);
+        
+    
+        var popup_e12107af91534143bdf104817feb47a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46c4ae21378547878f6de66486b6b9c1 = $(`<div id="html_46c4ae21378547878f6de66486b6b9c1" style="width: 100.0%; height: 100.0%;">브라더모터스</div>`)[0];
+            popup_e12107af91534143bdf104817feb47a5.setContent(html_46c4ae21378547878f6de66486b6b9c1);
+        
+
+        marker_edb3a8d179ed4e839c7fa87f18da093d.bindPopup(popup_e12107af91534143bdf104817feb47a5)
+        ;
+
+        
+    
+    
+            var marker_a0431575cb1141ed8f13a71471ad5417 = L.marker(
+                [35.1670465, 128.9883893],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_b482ecc1b7b44870a823ab2667e30780 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a0431575cb1141ed8f13a71471ad5417.setIcon(icon_b482ecc1b7b44870a823ab2667e30780);
+        
+    
+        var popup_52469a3dd79e4339913a511a1bd22c95 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c2e4cadae31447188ce9bd720ad24eb4 = $(`<div id="html_c2e4cadae31447188ce9bd720ad24eb4" style="width: 100.0%; height: 100.0%;">NK팩토리</div>`)[0];
+            popup_52469a3dd79e4339913a511a1bd22c95.setContent(html_c2e4cadae31447188ce9bd720ad24eb4);
+        
+
+        marker_a0431575cb1141ed8f13a71471ad5417.bindPopup(popup_52469a3dd79e4339913a511a1bd22c95)
+        ;
+
+        
+    
+    
+            var marker_9482b2c7b6b84bb6be79e660975bf23e = L.marker(
+                [37.5116665, 126.7040857],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_debdda2a9e234b0195347e0d247a9b2b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9482b2c7b6b84bb6be79e660975bf23e.setIcon(icon_debdda2a9e234b0195347e0d247a9b2b);
+        
+    
+        var popup_d274ca3f731c4227ab32a0a164c097c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7304f4d023d9432088e0ef80e150faf0 = $(`<div id="html_7304f4d023d9432088e0ef80e150faf0" style="width: 100.0%; height: 100.0%;">티스테이션 청천점</div>`)[0];
+            popup_d274ca3f731c4227ab32a0a164c097c2.setContent(html_7304f4d023d9432088e0ef80e150faf0);
+        
+
+        marker_9482b2c7b6b84bb6be79e660975bf23e.bindPopup(popup_d274ca3f731c4227ab32a0a164c097c2)
+        ;
+
+        
+    
+    
+            var marker_c933da129f8b443c8e127c0e1ab49133 = L.marker(
+                [37.254522, 126.9870124],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_f571add814a74d298e9dcfe74f9b052f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c933da129f8b443c8e127c0e1ab49133.setIcon(icon_f571add814a74d298e9dcfe74f9b052f);
+        
+    
+        var popup_8c253e5f7fda40e7ad794bd977bd2ba2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6679bb2bf5b64f38ae6637bd5510c196 = $(`<div id="html_6679bb2bf5b64f38ae6637bd5510c196" style="width: 100.0%; height: 100.0%;">헬로오토</div>`)[0];
+            popup_8c253e5f7fda40e7ad794bd977bd2ba2.setContent(html_6679bb2bf5b64f38ae6637bd5510c196);
+        
+
+        marker_c933da129f8b443c8e127c0e1ab49133.bindPopup(popup_8c253e5f7fda40e7ad794bd977bd2ba2)
+        ;
+
+        
+    
+    
+            var marker_43020baa62284e13a6d053e0e9e13b59 = L.marker(
+                [37.3261742, 127.1182775],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_974276240fad4abc9a2e726a16b885b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_43020baa62284e13a6d053e0e9e13b59.setIcon(icon_974276240fad4abc9a2e726a16b885b9);
+        
+    
+        var popup_c1a9d6d2553f44149340f85d5a0e965b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4f35842b5f746878a0789fcaa790f03 = $(`<div id="html_d4f35842b5f746878a0789fcaa790f03" style="width: 100.0%; height: 100.0%;">대일카센타</div>`)[0];
+            popup_c1a9d6d2553f44149340f85d5a0e965b.setContent(html_d4f35842b5f746878a0789fcaa790f03);
+        
+
+        marker_43020baa62284e13a6d053e0e9e13b59.bindPopup(popup_c1a9d6d2553f44149340f85d5a0e965b)
+        ;
+
+        
+    
+    
+            var marker_272518a8f6bf4a72b2d5bc0018daf303 = L.marker(
+                [37.0074695, 127.2732221],
+                {}
+            ).addTo(marker_cluster_22c6acc1edfe46e4a79c245e4631d7f0);
+        
+    
+            var icon_0763595fefc24d67be6af5bcd0017afe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_272518a8f6bf4a72b2d5bc0018daf303.setIcon(icon_0763595fefc24d67be6af5bcd0017afe);
+        
+    
+        var popup_9667e556fc5b46bc96d862c962f31151 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_36b31811237345fe9b797d65cf1ec238 = $(`<div id="html_36b31811237345fe9b797d65cf1ec238" style="width: 100.0%; height: 100.0%;">청용모터스</div>`)[0];
+            popup_9667e556fc5b46bc96d862c962f31151.setContent(html_36b31811237345fe9b797d65cf1ec238);
+        
+
+        marker_272518a8f6bf4a72b2d5bc0018daf303.bindPopup(popup_9667e556fc5b46bc96d862c962f31151)
+        ;
+
+        
+    
+</script>
